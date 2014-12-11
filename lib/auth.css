@@ -45,6 +45,10 @@
 }
 .auth--v1 .login-wrapper--v1 button {
   display: inline;
+  padding: 10px;
+}
+.auth--v1 .login-wrapper--v1 button > span {
+  margin-left: 10px;
 }
 .auth--v1 .login-wrapper--v1 button:focus {
   outline: none;
