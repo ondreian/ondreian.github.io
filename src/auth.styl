@@ -1,0 +1,83 @@
+// all elements defined here should exist in the html with the following modular namespace:
+// --v1
+// This denotes they exist outside of both bootstrap and web2py
+
+@import 'nib'
+
+@media (min-width 1200px)
+  .auth--v1
+  	.row
+    	margin-left 0px
+
+    .footer
+    	height 20px // Bootstrap line-height
+
+    .footer-content
+    	bottom 0px
+
+.auth--v1
+	// logo is on white
+	//background #f5f5f5
+
+	#copyright--v1
+		text-align center
+
+	.logo-container--v1
+		padding 30px 0px 50px 0px
+
+	img.logo--v1
+		display block
+		margin 0 auto
+		max-width 340px
+
+	.login-wrapper--v1
+		width 400px
+		margin 0 auto
+		padding 20px
+		border 1px solid #e5e5e5
+		background #f1f1f1
+
+		h2
+			text-align center
+			margin-bottom 1.25em
+			text-shadow none
+			color #333
+
+		button, input[type='submit'], input[type='text'], input[type='password']
+			display block
+			width 100%
+			border-radius 0px
+			text-shadow none
+
+		button
+			display inline
+
+			&:focus
+				outline none
+				border none
+
+		button, input[type='submit']
+			padding 10px 0px
+			color #f1f1f1
+
+		table
+			min-width 400px
+
+		label
+			text-transform lowercase
+			font-weight bold
+			font-size .95em
+
+		.login--v1
+			margin 1em 0
+			background #099A94
+			border 1px solid #00736E
+
+		.forgot-pass--v1
+			color #495BB9
+			border none
+			background none
+			box-shadow none
+			text-align left
+			text-transform lowercase
+			
