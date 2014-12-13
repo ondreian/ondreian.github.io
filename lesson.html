@@ -52,6 +52,21 @@
 <meta name="author" content="Your Name &lt;you@example.com&gt;">
 <script src="./lesson_files/jquery.js" type="text/javascript"></script><link href="./lesson_files/calendar.css" rel="stylesheet" type="text/css"><script src="./lesson_files/calendar.js" type="text/javascript"></script><script src="./lesson_files/web2py.js" type="text/javascript"></script><link href="./lesson_files/web2py.css" rel="stylesheet" type="text/css"><link href="./lesson_files/bootstrap.min.css" rel="stylesheet" type="text/css"><link href="./lesson_files/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"><link href="./lesson_files/web2py_bootstrap.css" rel="stylesheet" type="text/css">
 
+  <!-- 
+    Files Added By Benjamin 
+    app.css  - styles for things that are application wide (footer, header, etc)
+    auth.css - styles for things that are on the login/out, etc pages
+    TODO:
+      - all of my added classes will have the double-dashed 'v1' namespace 
+  -->
+  <link href="./lib/app.css" rel="stylesheet" type="text/css">
+  <link href="./lib/lesson.css" rel="stylesheet" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link href='http://code.ionicframework.com/ionicons/2.0.0/css/ionicons.min.css' rel='stylesheet' type='text/css'>
+
+  <!--
+   /end files by Benjamin
+  -->
 
   
 
@@ -63,7 +78,8 @@
   
 </head>
 
-<body>
+<body class="lesson--v1">
+  
   <!-- Navbar ================================================== -->
   <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="flash" style="display: none;"></div>
@@ -89,7 +105,10 @@
 
   <div class="container">
     <!-- Masthead ================================================== -->
+    <!--
+    TODO: remove this
     <br>
+    -->
     <!--
     <header class="mastheader row" id="header">
       
@@ -106,164 +125,196 @@
     -->
 
     <section id="main" class="main row">
-        
+
 
         <div class="span12">
             
             
-<form action="https://cpp.pythonanywhere.com/skillbuilder/default/mysession/23#" enctype="multipart/form-data" method="post">
+<form action="https://cpp.pythonanywhere.com/skillbuilder/default/mysession/23#" class='lesson-holder--v1' enctype="multipart/form-data" method="post">
 <div class="row">
     <div class="span12">
-        
-	
+    <h3 class='lesson-title--v1'>SkillBuilder Lesson 1: Understanding the Injection Molding Sequence</h3>
+
+<div class="row states-container--v1">
 
 	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-
-
-
-<div class="row">
-	<div class="span2">
+  <div class="span2 column--v1">
         <p style="display : None"><select class="generic-widget" id="mysession_lesson" name="lesson"><option value=""></option><option selected="selected" value="1">lesson 01</option><option value="2">lesson 02</option><option value="3">lesson 03</option><option value="4">lesson 04</option><option value="5">lesson 05</option><option value="6">lesson 06</option><option value="7">lesson 07</option><option value="8">lesson 08</option><option value="9">lesson 09</option><option value="10">lesson 10</option><option value="11">lesson 11</option><option value="12">lesson 12</option><option value="13">lesson 13</option><option value="14">lesson 14</option><option value="15">lesson 15</option></select></p>
         <p style="display : None"><input class="string" id="mysession_screen" name="screen" type="text" value="lesson1-1"></p>
         <p style="display : None"><input class="integer" id="mysession_units" name="units" type="text" value="0"></p>
+        <div class="variable-wrapper--v1">
         Session Name:
         <input class="string" id="mysession_Session_Name" name="Session_Name" type="text" value="My Session">
-        <br>
+        </div>
+        <div class="variable-wrapper--v1">
         Front Zone:
         <input class="double" id="mysession_Front_Zone_Temp" name="Front_Zone_Temp" readonly="readonly" type="text" value="430.00">
-        <br>
+        </div><div class="variable-wrapper--v1">
         Middle Zone:
         <input class="double" id="mysession_Middle_Zone_Temp" name="Middle_Zone_Temp" readonly="readonly" type="text" value="430.00">
-        <br>
+        </div><div class="variable-wrapper--v1">
         Rear Zone:
         <input class="double" id="mysession_Rear_Zone_Temp" name="Rear_Zone_Temp" readonly="readonly" type="text" value="400.00">
-        <br>
+        </div><div class="variable-wrapper--v1">
         Mold Core:
         <input class="double" id="mysession_Mold_Core_Temp" name="Mold_Core_Temp" readonly="readonly" type="text" value="70.00">
-        <br>
+        </div><div class="variable-wrapper--v1">
         Mold Cavity:
         <input class="double" id="mysession_Mold_Cavity_Temp" name="Mold_Cavity_Temp" readonly="readonly" type="text" value="70.00">
+        </div>
     </div>
-    <div class="span2">
+    
+    <div class="span2 column--v1">
+      <div class="variable-wrapper--v1">
         Inj. Limit Timer:
         <input class="double" id="mysession_Inj_Limit_Timer" name="Inj_Limit_Timer" readonly="readonly" type="text" value="5.00">
-        <br>
+      </div>
+        <div class="variable-wrapper--v1">
         Holding Timer:
         <input class="double" id="mysession_Holding_Timer" name="Holding_Timer" readonly="readonly" type="text" value="5.00">
-        <br>
+        </div><div class="variable-wrapper--v1">
         Mold Closed Timer:
         <input class="double" id="mysession_Mold_Closed_Timer" name="Mold_Closed_Timer" readonly="readonly" type="text" value="25.00">
-        <br>
+        </div><div class="variable-wrapper--v1">
         Mold Open Timer:
         <input class="double" id="mysession_Mold_Open_Timer" name="Mold_Open_Timer" readonly="readonly" type="text" value="3.00">
+        </div>
     </div>
-    <div class="span2">
+    
+    <div class="span2 column--v1">
+      <div class="variable-wrapper--v1">
         Max. Inj. Pressure:
         <input class="double" id="mysession_Max_Inj_Press" name="Max_Inj_Press" readonly="readonly" type="text" value="20000.00">
-        <br>
+      </div>
+        <div class="variable-wrapper--v1">
         Holding Pressure:
         <input class="double" id="mysession_Holding_Press" name="Holding_Press" readonly="readonly" type="text" value="9000.00">
-        <br>
+        </div><div class="variable-wrapper--v1">
         Back Pressure:
         <input class="double" id="mysession_Back_Press" name="Back_Press" readonly="readonly" type="text" value="1300.00">
-        <br>
+        </div><div class="variable-wrapper--v1">
         Clamp Force:
         <input class="double" id="mysession_Clamp_Force" name="Clamp_Force" readonly="readonly" type="text" value="95.00">
-        <br>
+        </div><div class="variable-wrapper--v1">
         Screw RPM:
         <input class="double" id="mysession_Screw_RPM" name="Screw_RPM" readonly="readonly" type="text" value="150.00">
-        <br>
+        </div><div class="variable-wrapper--v1">
         Screw Back:
         <input class="double" id="mysession_Screw_Back" name="Screw_Back" readonly="readonly" type="text" value="3.20">
+        </div>
     </div>
-    <div class="span2">
+
+    <div class="span2 column--v1">
+      <div class="variable-wrapper--v1">
         Fill Rate 1:
         <input class="double" id="mysession_Fill_Rate_1" name="Fill_Rate_1" readonly="readonly" type="text" value="60.00">
-        <br>
+      </div>
+        <div class="variable-wrapper--v1">
         Fill Rate 2:
         <input class="double" id="mysession_Fill_Rate_2" name="Fill_Rate_2" readonly="readonly" type="text" value="60.00">
-        <br>
+        </div><div class="variable-wrapper--v1">
         Fill Rate 3:
         <input class="double" id="mysession_Fill_Rate_3" name="Fill_Rate_3" readonly="readonly" type="text" value="60.00">
-        <br>
+        </div><div class="variable-wrapper--v1">
         Fill Rate 4:
         <input class="double" id="mysession_Fill_Rate_4" name="Fill_Rate_4" readonly="readonly" type="text" value="60.00">
-        <br>
+        </div><div class="variable-wrapper--v1">
         Fill Rate 5:
         <input class="double" id="mysession_Fill_Rate_5" name="Fill_Rate_5" readonly="readonly" type="text" value="60.00">
-        <br>
+        </div><div class="variable-wrapper--v1">
         VPT Setpoint:
         <input class="double" id="mysession_VPT_Setpoint" name="VPT_Setpoint" readonly="readonly" type="text" value="0.21">
+        </div>
     </div>
-    <div class="span2">
+
+    <div class="span2 column--v1">
+      <div class="variable-wrapper--v1">
         Fill Time:
         <input class="double" id="mysession_Fill_Time" name="Fill_Time" readonly="readonly" type="text" value="0.816">
-        <br>
+      </div>
+        <div class="variable-wrapper--v1">
         Cycle Time:
         <input class="double" id="mysession_Cycle_Time" name="Cycle_Time" readonly="readonly" type="text" value="28.82">
-        <br>
+        </div><div class="variable-wrapper--v1">
         Melt Temp:
         <input class="double" id="mysession_Melt_Temp" name="Melt_Temp" readonly="readonly" type="text" value="432.0">
-        <br>
+        </div><div class="variable-wrapper--v1">
         Cushion Size:
         <input class="double" id="mysession_Cushion_Size" name="Cushion_Size" readonly="readonly" type="text" value="0.21">
-        <br>
+        </div><div class="variable-wrapper--v1">
         Part Weight:
         <input class="double" id="mysession_Part_Weight" name="Part_Weight" readonly="readonly" type="text" value="3.205">
-        <br>
+        </div><div class="variable-wrapper--v1">
         Part Length:
         <input class="double" id="mysession_Part_Length" name="Part_Length" readonly="readonly" type="text" value="6.499">
+        </div>
     </div>
-    <div class="span2">
-        
-        
-        
-        
-        
-        
-        
-        
-        
+
+    <div class="span2 column--v1 errors-column--v1">
+
+      <ul class="errors-wrapper--v1">
+        <li class='ok'>
+          <span class="error-name">High Melt Temp</span>
+          <span class="icon">
+            <span class="ion-alert"></span>
+            <span class="ion-lightbulb"></span>
+          </span>
+        </li>
+
+        <li class='ok'>
+          <span class="error-name">Low Melt Temp</span>
+          <span class="icon">
+            <span class="ion-alert"></span>
+            <span class="ion-lightbulb"></span>
+          </span>
+        </li>
+
+        <li class='warn'>
+          <span class="error-name">Low Max Inj Press</span>
+          <span class="icon">
+            <span class="ion-alert"></span>
+            <span class="ion-lightbulb"></span>
+          </span>
+        </li>
+
+        <li class='error'>
+          <span class="error-name">Inj Limit Timer</span>
+          <span class="icon">
+            <span class="ion-alert"></span>
+            <span class="ion-lightbulb"></span>
+          </span>
+        </li>
+
+        <li class='warn'>
+          <span class="error-name">Screw Back Press</span>
+          <span class="icon">
+            <span class="ion-alert"></span>
+            <span class="ion-lightbulb"></span>
+          </span>
+        </li>
+
+        <li class='ok'>
+          <span class="error-name">Screw Back Time</span>
+          <span class="icon">
+            <span class="ion-alert"></span>
+            <span class="ion-lightbulb"></span>
+          </span>
+        </li>
+
+        <li class='error'>
+          <span class="error-name">No Cushion</span>
+          <span class="icon">
+            <span class="ion-alert"></span>
+            <span class="ion-lightbulb"></span>
+          </span>
+        </li>
+
+      </ul>
+
+      <!--  
         <table><tbody><tr><td>High Melt Temp</td><td><img src="./lesson_files/green-dot.jpg"></td></tr><tr><td>Low Melt Temp</td><td><img src="./lesson_files/green-dot.jpg"></td></tr><tr><td>Low Max Inj Press</td><td><img src="./lesson_files/green-dot.jpg"></td></tr><tr><td>Inj Limit Timer</td><td><img src="./lesson_files/green-dot.jpg"></td></tr><tr><td>Screw Back Press</td><td><img src="./lesson_files/green-dot.jpg"></td></tr><tr><td>Screw Back Time</td><td><img src="./lesson_files/green-dot.jpg"></td></tr><tr><td>No Cushion</td><td><img src="./lesson_files/green-dot.jpg"></td></tr></tbody></table>
+      -->
+
     </div>                
 </div>
 
@@ -272,7 +323,7 @@
 <!-- <hr> -->
 <div class="row">
 	<div class="span6">
-        <h3>SkillBuilder Lesson 1: Understanding the Injection Molding Sequence</h3><span style="color: blue"><strong>Purpose of Lesson</strong></span><p><br> Study the molding sequence for this machine to learn when each timer operates.</p><p>Total cycle time = Fill time + Mold Closed time + Mold Open time. <br> <br> <img src="./lesson_files/Image1.gif"> <br> <br> <audio autoplay="autoplay" controls="controls" src="/skillbuilder/static/L1/SCRN1.mp3"></audio></p>
+        <span style="color: blue"><strong>Purpose of Lesson</strong></span><p><br> Study the molding sequence for this machine to learn when each timer operates.</p><p>Total cycle time = Fill time + Mold Closed time + Mold Open time. <br> <br> <img src="./lesson_files/Image1.gif"> <br> <br> <audio autoplay="autoplay" controls="controls" src="/skillbuilder/static/L1/SCRN1.mp3"></audio></p>
         
 		<input type="submit" value="&lt; Back" class="btn btn-success" name="screenprev" disabled="">
         
@@ -287,28 +338,35 @@
     </div>
 	<div class="span6">
         <div class="row">
+           <h3>Click on a Problem</h3>
+           <p>no current problems</p>
+           <div class="w2p_wiki_tags"></div>
+            <!--
             <div class="span3">
                 
                 <h3>Lesson Status</h3>
                 <p>10% complete</p>
                 
             </div>
+            
+
+
             <div class="span3">
                 <h3>Click on a Problem</h3><p>no current problems</p><div class="w2p_wiki_tags"></div>
             </div>
+
+            -->
+
         </div>
-        <hr>
-        <h3>Current Part</h3><p><br> This is the part we are molding. <img src="./lesson_files/normal.jpg"></p>
+        <div class="row">
+          <h3>Current Part</h3>
+          <p>
+          <br> This is the part we are molding. 
+          <img src="./lesson_files/normal.jpg">
+          </p>
+        </div>
     </div>
 </div>
-<div style="display:none;"><input name="id" type="hidden" value="23"><input name="_formkey" type="hidden" value="d6c538ed-bf96-465a-b678-2e51bcf69af0"><input name="_formname" type="hidden" value="mysession/23"></div></form>
-<div id="totop-2140d99b-fcad-4278-aa8b-3500baa9b0e8"><button onclick="document.location=&#39;/admin/default/design.html/skillbuilder&#39;" class="btn">design</button><button onclick="jQuery(&#39;#request-2140d99b-fcad-4278-aa8b-3500baa9b0e8&#39;).slideToggle()" class="btn">request</button><button onclick="jQuery(&#39;#response-2140d99b-fcad-4278-aa8b-3500baa9b0e8&#39;).slideToggle()" class="btn">response</button><button onclick="jQuery(&#39;#session-2140d99b-fcad-4278-aa8b-3500baa9b0e8&#39;).slideToggle()" class="btn">session</button><button onclick="jQuery(&#39;#db-tables-2140d99b-fcad-4278-aa8b-3500baa9b0e8&#39;).slideToggle()" class="btn">db tables</button><button onclick="jQuery(&#39;#db-stats-2140d99b-fcad-4278-aa8b-3500baa9b0e8&#39;).slideToggle()" class="btn">db stats</button><div class="hidden" id="request-2140d99b-fcad-4278-aa8b-3500baa9b0e8" style="display: none;"><div><table><tbody><tr><td style="font-weight:bold;vertical-align:top;">ajax</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">application</td><td style="vertical-align:top;">:</td><td><div>skillbuilder</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">args</td><td style="vertical-align:top;">:</td><td><div><table><tbody><tr><td><div>23</div></td></tr></tbody></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cid</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">client</td><td style="vertical-align:top;">:</td><td><div>98.235.73.12</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">controller</td><td style="vertical-align:top;">:</td><td><div>default</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tbody><tr><td style="font-weight:bold;vertical-align:top;">session_id_skillbuilder</td><td style="vertical-align:top;">:</td><td><div>98.235.73.12-f0d85ada-2be6-4247-8315-c5db25d32a3a<table><tbody><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></tbody></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">sessionid</td><td style="vertical-align:top;">:</td><td><div>12a579b9566cdaa078132fc920c6d845<table><tbody><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></tbody></table></div></td></tr></tbody></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">env</td><td style="vertical-align:top;">:</td><td><div><table><tbody><tr><td style="font-weight:bold;vertical-align:top;">CONTENT_LENGTH</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">CONTENT_TYPE</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">DOCUMENT_ROOT</td><td style="vertical-align:top;">:</td><td><div>/usr/local/openresty/nginx/html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTPS</td><td style="vertical-align:top;">:</td><td><div>on</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_ENCODING</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate, sdch</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_LANGUAGE</td><td style="vertical-align:top;">:</td><td><div>en-US,en;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CONNECTION</td><td style="vertical-align:top;">:</td><td><div>close</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_COOKIE</td><td style="vertical-align:top;">:</td><td><div>sessionid=12a579b9566cdaa078132fc920c6d845; __utma=133430031.946405766.1418321041.1418321041.1418321041.1; __utmc=133430031; __utmz=133430031.1418321041.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); session_id_skillbuilder=98.235.73.12-f0d85ada-2be6-4247-8315-c5db25d32a3a</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_DNT</td><td style="vertical-align:top;">:</td><td><div>1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_HOST</td><td style="vertical-align:top;">:</td><td><div>cpp.pythonanywhere.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_REFERER</td><td style="vertical-align:top;">:</td><td><div>https://cpp.pythonanywhere.com/skillbuilder/default/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_USER_AGENT</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_X_FORWARDED_FOR</td><td style="vertical-align:top;">:</td><td><div>98.235.73.12</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_X_REAL_IP</td><td style="vertical-align:top;">:</td><td><div>98.235.73.12</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">PATH_INFO</td><td style="vertical-align:top;">:</td><td><div>/skillbuilder/default/mysession/23</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">QUERY_STRING</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_ADDR</td><td style="vertical-align:top;">:</td><td><div>10.138.36.251</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_PORT</td><td style="vertical-align:top;">:</td><td><div>50293</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REQUEST_METHOD</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REQUEST_URI</td><td style="vertical-align:top;">:</td><td><div>/skillbuilder/default/mysession/23</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SCRIPT_NAME</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_NAME</td><td style="vertical-align:top;">:</td><td><div>cpp.pythonanywhere.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PORT</td><td style="vertical-align:top;">:</td><td><div>443</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PROTOCOL</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set(['/home/cpp/web2py/applications/skillbuilder/', '/home/cpp/web2py/applications/admin/'])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/home/cpp/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">content_length</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">content_type</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">document_root</td><td style="vertical-align:top;">:</td><td><div>/usr/local/openresty/nginx/html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/home/cpp/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_encoding</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate, sdch</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_language</td><td style="vertical-align:top;">:</td><td><div>en-US,en;q=0.8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_connection</td><td style="vertical-align:top;">:</td><td><div>close</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cookie</td><td style="vertical-align:top;">:</td><td><div>sessionid=12a579b9566cdaa078132fc920c6d845; __utma=133430031.946405766.1418321041.1418321041.1418321041.1; __utmc=133430031; __utmz=133430031.1418321041.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); session_id_skillbuilder=98.235.73.12-f0d85ada-2be6-4247-8315-c5db25d32a3a</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_dnt</td><td style="vertical-align:top;">:</td><td><div>1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_host</td><td style="vertical-align:top;">:</td><td><div>cpp.pythonanywhere.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_referer</td><td style="vertical-align:top;">:</td><td><div>https://cpp.pythonanywhere.com/skillbuilder/default/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_user_agent</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_x_forwarded_for</td><td style="vertical-align:top;">:</td><td><div>98.235.73.12</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_x_real_ip</td><td style="vertical-align:top;">:</td><td><div>98.235.73.12</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">https</td><td style="vertical-align:top;">:</td><td><div>on</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tbody><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>giles-liveweb4</div></td></tr><tr><td><div>cpp.pythonanywhere.com</div></td></tr><tr><td><div>50.19.109.98</div></td></tr><tr><td><div>127.0.0.1</div></td></tr><tr><td><div>localhost</div></td></tr></tbody></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path_info</td><td style="vertical-align:top;">:</td><td><div>/skillbuilder/default/mysession/23</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">query_string</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_addr</td><td style="vertical-align:top;">:</td><td><div>10.138.36.251</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_port</td><td style="vertical-align:top;">:</td><td><div>50293</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_method</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_uri</td><td style="vertical-align:top;">:</td><td><div>/skillbuilder/default/mysession/23</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">script_name</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_name</td><td style="vertical-align:top;">:</td><td><div>cpp.pythonanywhere.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_port</td><td style="vertical-align:top;">:</td><td><div>443</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_protocol</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi.node</td><td style="vertical-align:top;">:</td><td><div>giles-liveweb4</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi.version</td><td style="vertical-align:top;">:</td><td><div>2.0.5.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi_node</td><td style="vertical-align:top;">:</td><td><div>giles-liveweb4</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uwsgi_version</td><td style="vertical-align:top;">:</td><td><div>2.0.5.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_path</td><td style="vertical-align:top;">:</td><td><div>/home/cpp/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.9.5-stable+timestamp.2014.03.16.02.35.39</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.errors</td><td style="vertical-align:top;">:</td><td><div>&lt;uwsgi_file__bin_user_wsgi_wrapper.ErrorLogFile object at 0x7f0648a7e6d0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;built-in function uwsgi_sendfile&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.input</td><td style="vertical-align:top;">:</td><td><div>&lt;uwsgi._Input object at 0x7f065cfafe28&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multiprocess</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multithread</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.url_scheme</td><td style="vertical-align:top;">:</td><td><div>https</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.version</td><td style="vertical-align:top;">:</td><td><div><table><tbody><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></tbody></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_errors</td><td style="vertical-align:top;">:</td><td><div>&lt;uwsgi_file__bin_user_wsgi_wrapper.ErrorLogFile object at 0x7f0648a7e6d0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;built-in function uwsgi_sendfile&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_input</td><td style="vertical-align:top;">:</td><td><div>&lt;uwsgi._Input object at 0x7f065cfafe28&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multiprocess</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multithread</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_url_scheme</td><td style="vertical-align:top;">:</td><td><div>https</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_version</td><td style="vertical-align:top;">:</td><td><div><table><tbody><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></tbody></table></div></td></tr></tbody></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">extension</td><td style="vertical-align:top;">:</td><td><div>html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">folder</td><td style="vertical-align:top;">:</td><td><div>/home/cpp/web2py/applications/skillbuilder/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">function</td><td style="vertical-align:top;">:</td><td><div>mysession</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">get_vars</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">global_settings</td><td style="vertical-align:top;">:</td><td><div><table><tbody><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set(['/home/cpp/web2py/applications/skillbuilder/', '/home/cpp/web2py/applications/admin/'])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/home/cpp/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/home/cpp/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tbody><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>giles-liveweb4</div></td></tr><tr><td><div>cpp.pythonanywhere.com</div></td></tr><tr><td><div>50.19.109.98</div></td></tr><tr><td><div>127.0.0.1</div></td></tr><tr><td><div>localhost</div></td></tr></tbody></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.9.5-stable+timestamp.2014.03.16.02.35.39</div></td></tr></tbody></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_https</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_local</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_restful</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">now</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2014, 12, 12, 21, 36, 17, 952879)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">post_vars</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_args</td><td style="vertical-align:top;">:</td><td><div>23</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_extension</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">url</td><td style="vertical-align:top;">:</td><td><div>/skillbuilder/default/mysession/23</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">utcnow</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2014, 12, 12, 21, 36, 17, 952894)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">uuid</td><td style="vertical-align:top;">:</td><td><div>skillbuilder/98.235.73.12.2014-12-12.21-36-17.b6a5cabd-f79f-47ca-a12f-6c0d6c6479f8</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">vars</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi</td><td style="vertical-align:top;">:</td><td><div>&lt;gluon.main.LazyWSGI object at 0x7f06414876d0&gt;</div></td></tr></tbody></table></div><a href="https://cpp.pythonanywhere.com/skillbuilder/default/mysession/23#totop-2140d99b-fcad-4278-aa8b-3500baa9b0e8">Back to top</a></div><div class="hidden" id="session-2140d99b-fcad-4278-aa8b-3500baa9b0e8" style="display: none;"><div><table><tbody><tr><td style="font-weight:bold;vertical-align:top;">auth</td><td style="vertical-align:top;">:</td><td><div><table><tbody><tr><td style="font-weight:bold;vertical-align:top;">expiration</td><td style="vertical-align:top;">:</td><td><div>3600</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">hmac_key</td><td style="vertical-align:top;">:</td><td><div>a069f1a2-bb02-461d-bcbf-f927f1561654</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">last_visit</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2014, 12, 12, 21, 35, 25, 146775)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remember</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">user</td><td style="vertical-align:top;">:</td><td><div><table><tbody><tr><td style="font-weight:bold;vertical-align:top;">email</td><td style="vertical-align:top;">:</td><td><div>student1@aaa.com</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">first_name</td><td style="vertical-align:top;">:</td><td><div>student1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">id</td><td style="vertical-align:top;">:</td><td><div>23L</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">last_name</td><td style="vertical-align:top;">:</td><td><div>student1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">lessons</td><td style="vertical-align:top;">:</td><td><div><table><tbody><tr><td><div>1L</div></td></tr><tr><td><div>2L</div></td></tr><tr><td><div>3L</div></td></tr><tr><td><div>4L</div></td></tr><tr><td><div>5L</div></td></tr><tr><td><div>6L</div></td></tr><tr><td><div>7L</div></td></tr><tr><td><div>8L</div></td></tr><tr><td><div>9L</div></td></tr><tr><td><div>10L</div></td></tr><tr><td><div>11L</div></td></tr><tr><td><div>12L</div></td></tr><tr><td><div>13L</div></td></tr><tr><td><div>14L</div></td></tr><tr><td><div>15L</div></td></tr></tbody></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">org</td><td style="vertical-align:top;">:</td><td><div>4L</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">registration_id</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">registration_key</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">reset_password_key</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">sessions</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">student</td><td style="vertical-align:top;">:</td><td><div>1L</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">username</td><td style="vertical-align:top;">:</td><td><div>student1</div></td></tr></tbody></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">user_groups</td><td style="vertical-align:top;">:</td><td><div><table><tbody><tr><td style="font-weight:bold;vertical-align:top;">6</td><td style="vertical-align:top;">:</td><td><div>wiki_editor</div></td></tr></tbody></table></div></td></tr></tbody></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">flash</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr></tbody></table></div><a href="https://cpp.pythonanywhere.com/skillbuilder/default/mysession/23#totop-2140d99b-fcad-4278-aa8b-3500baa9b0e8">Back to top</a></div><div class="hidden" id="response-2140d99b-fcad-4278-aa8b-3500baa9b0e8" style="display: none;"><div><table><tbody><tr><td style="font-weight:bold;vertical-align:top;">body</td><td style="vertical-align:top;">:</td><td><div>&lt;cStringIO.StringO object at 0x7f064105b538&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tbody><tr><td style="font-weight:bold;vertical-align:top;">session_id_skillbuilder</td><td style="vertical-align:top;">:</td><td><div>98.235.73.12-f0d85ada-2be6-4247-8315-c5db25d32a3a<table><tbody><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div>/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></tbody></table></div></td></tr></tbody></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">delimiters</td><td style="vertical-align:top;">:</td><td><div><table><tbody><tr><td><div>{{</div></td></tr><tr><td><div>}}</div></td></tr></tbody></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">files</td><td style="vertical-align:top;">:</td><td><div><table><tbody><tr><td><div>/skillbuilder/static/js/jquery.js</div></td></tr><tr><td><div>/skillbuilder/static/css/calendar.css</div></td></tr><tr><td><div>/skillbuilder/static/js/calendar.js</div></td></tr><tr><td><div>/skillbuilder/static/js/web2py.js</div></td></tr><tr><td><div>/skillbuilder/static/css/web2py.css</div></td></tr><tr><td><div>/skillbuilder/static/css/bootstrap.min.css</div></td></tr><tr><td><div>/skillbuilder/static/css/bootstrap-responsive.min.css</div></td></tr><tr><td><div>/skillbuilder/static/css/web2py_bootstrap.css</div></td></tr></tbody></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">flash</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generic_patterns</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">google_analytics_id</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">headers</td><td style="vertical-align:top;">:</td><td><div><table><tbody><tr><td style="font-weight:bold;vertical-align:top;">X-Powered-By</td><td style="vertical-align:top;">:</td><td><div>web2py</div></td></tr></tbody></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">logo</td><td style="vertical-align:top;">:</td><td><div><a class="brand" href="https://cpp.pythonanywhere.com/skillbuilder/default/index"><b>Paulson Training Programs, Inc.</b>™&nbsp;</a></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">menu</td><td style="vertical-align:top;">:</td><td><div><table><tbody><tr><td><div><table><tbody><tr><td><div>Home</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/skillbuilder/default/index</div></td></tr><tr><td><div><table></table></div></td></tr></tbody></table></div></td></tr></tbody></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">meta</td><td style="vertical-align:top;">:</td><td><div><table><tbody><tr><td style="font-weight:bold;vertical-align:top;">author</td><td style="vertical-align:top;">:</td><td><div>Your Name &lt;you@example.com&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">description</td><td style="vertical-align:top;">:</td><td><div>a cool new app</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generator</td><td style="vertical-align:top;">:</td><td><div>Web2py Web Framework</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">keywords</td><td style="vertical-align:top;">:</td><td><div>web2py, python, framework</div></td></tr></tbody></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">models_to_run</td><td style="vertical-align:top;">:</td><td><div><table><tbody><tr><td><div>^\w+\.py$</div></td></tr><tr><td><div>^default/\w+\.py$</div></td></tr><tr><td><div>^default/mysession/\w+\.py$</div></td></tr></tbody></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">postprocessing</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_client</td><td style="vertical-align:top;">:</td><td><div>98.235.73.12</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_compression_level</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_expires</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_key</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_data_name</td><td style="vertical-align:top;">:</td><td><div>session_data_skillbuilder</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_file</td><td style="vertical-align:top;">:</td><td><div>&lt;open file '/home/cpp/web2py/applications/skillbuilder/sessions/98.235.73.12-f0d85ada-2be6-4247-8315-c5db25d32a3a', mode 'rb+' at 0x7f06413e0ed0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_filename</td><td style="vertical-align:top;">:</td><td><div>/home/cpp/web2py/applications/skillbuilder/sessions/98.235.73.12-f0d85ada-2be6-4247-8315-c5db25d32a3a</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_hash</td><td style="vertical-align:top;">:</td><td><div>70bcd4313685c96bcfcd8d251af7bbac</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id</td><td style="vertical-align:top;">:</td><td><div>98.235.73.12-f0d85ada-2be6-4247-8315-c5db25d32a3a</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_name</td><td style="vertical-align:top;">:</td><td><div>session_id_skillbuilder</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_locked</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_masterapp</td><td style="vertical-align:top;">:</td><td><div>skillbuilder</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_new</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_storage_type</td><td style="vertical-align:top;">:</td><td><div>file</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">status</td><td style="vertical-align:top;">:</td><td><div>200</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">title</td><td style="vertical-align:top;">:</td><td><div>SkillBuilder</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">view</td><td style="vertical-align:top;">:</td><td><div>default/mysession.html</div></td></tr></tbody></table></div><a href="https://cpp.pythonanywhere.com/skillbuilder/default/mysession/23#totop-2140d99b-fcad-4278-aa8b-3500baa9b0e8">Back to top</a></div><div class="hidden" id="db-tables-2140d99b-fcad-4278-aa8b-3500baa9b0e8" style="display: none;"><div><table><tbody><tr><td style="font-weight:bold;vertical-align:top;">mysql:******@mysql.server/cpp$skdb</td><td style="vertical-align:top;">:</td><td><div><table><tbody><tr><td style="font-weight:bold;vertical-align:top;">defined</td><td style="vertical-align:top;">:</td><td><div><table><tbody><tr><td><div>auth_cas</div></td></tr><tr><td><div>auth_event</div></td></tr><tr><td><div>auth_group</div></td></tr><tr><td><div>auth_membership</div></td></tr><tr><td><div>auth_permission</div></td></tr><tr><td><div>auth_user</div></td></tr><tr><td><div>mylesson</div></td></tr><tr><td><div>myscreen</div></td></tr><tr><td><div>mysession</div></td></tr><tr><td><div>org</div></td></tr><tr><td><div>todo_list</div></td></tr><tr><td><div>wiki_media</div></td></tr><tr><td><div>wiki_page</div></td></tr><tr><td><div>wiki_tag</div></td></tr></tbody></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">lazy</td><td style="vertical-align:top;">:</td><td><div>[no lazy tables]</div></td></tr></tbody></table></div></td></tr></tbody></table></div><a href="https://cpp.pythonanywhere.com/skillbuilder/default/mysession/23#totop-2140d99b-fcad-4278-aa8b-3500baa9b0e8">Back to top</a></div><div class="hidden" id="db-stats-2140d99b-fcad-4278-aa8b-3500baa9b0e8" style="display: none;"><div><table><tbody><tr><td><div><table><tbody><tr><td><pre>SELECT 1;</pre></td><td>0.86ms</td></tr><tr><td><pre>SET FOREIGN_KEY_CHECKS=1;</pre></td><td>0.83ms</td></tr><tr><td><pre>SET sql_mode='NO_BACKSLASH_ESCAPES';</pre></td><td>0.73ms</td></tr><tr><td><pre>SELECT  mysession.id, mysession.user_name, mysession.enrolled_on, mysession.started_on, mysession.last_used_on, mysession.lesson, mysession.screen, mysession.units, mysession.Session_Name, mysession.Front_Zone_Temp, mysession.Middle_Zone_Temp, mysession.Rear_Zone_Temp, mysession.Mold_Core_Temp, mysession.Mold_Cavity_Temp, mysession.VPT_Setpoint, mysession.Inj_Limit_Timer, mysession.PackingRampTimer, mysession.PackingTimer, mysession.Holding_Timer, mysession.Mold_Closed_Timer, mysession.Mold_Open_Timer, mysession.Max_Inj_Press, mysession.PackingPress, mysession.Holding_Press, mysession.Back_Press, mysession.Clamp_Force, mysession.Screw_RPM, mysession.Screw_Back, mysession.Fill_Rate_1, mysession.Fill_Rate_2, mysession.Fill_Rate_3, mysession.Fill_Rate_4, mysession.Fill_Rate_5 FROM mysession WHERE (mysession.id = 23);</pre></td><td>1.63ms</td></tr><tr><td><pre>SELECT  auth_user.id, auth_user.first_name, auth_user.last_name, auth_user.email, auth_user.username, auth_user.password, auth_user.registration_key, auth_user.reset_password_key, auth_user.registration_id, auth_user.student, auth_user.org, auth_user.lessons, auth_user.sessions FROM auth_user WHERE (auth_user.id = 23) LIMIT 1 OFFSET 0;</pre></td><td>0.98ms</td></tr><tr><td><pre>SELECT  mylesson.name, mylesson.id FROM mylesson WHERE (mylesson.id IS NOT NULL) ORDER BY mylesson.name, mylesson.id;</pre></td><td>1.01ms</td></tr><tr><td><pre>SELECT  myscreen.id, myscreen.screen, myscreen.percent_done, myscreen.graphic, myscreen.video, myscreen.status, myscreen.problems, myscreen.part, myscreen.screennext, myscreen.screenprev, myscreen.answer, myscreen.correct, myscreen.incorrect, myscreen.Fill_Time, myscreen.Cycle_Time, myscreen.Melt_Temp, myscreen.Cushion_Size, myscreen.Part_Weight, myscreen.Part_Length, myscreen.High_Melt_Temp, myscreen.Low_Melt_Temp, myscreen.Low_Max_Inj_Press, myscreen.Injection_Limit_Timer, myscreen.Screw_Back_Press, myscreen.Screw_Back_Time, myscreen.No_Cushion FROM myscreen WHERE (myscreen.screen = 'lesson1-1');</pre></td><td>2.02ms</td></tr><tr><td><pre>SELECT  wiki_page.id, wiki_page.slug, wiki_page.title, wiki_page.body, wiki_page.tags, wiki_page.can_read, wiki_page.can_edit, wiki_page.changelog, wiki_page.html, wiki_page.render, wiki_page.is_active, wiki_page.created_on, wiki_page.created_by, wiki_page.modified_on, wiki_page.modified_by FROM wiki_page WHERE (wiki_page.slug = 'video1-1') LIMIT 1 OFFSET 0;</pre></td><td>147.39ms</td></tr><tr><td><pre>SELECT  wiki_page.id, wiki_page.slug, wiki_page.title, wiki_page.body, wiki_page.tags, wiki_page.can_read, wiki_page.can_edit, wiki_page.changelog, wiki_page.html, wiki_page.render, wiki_page.is_active, wiki_page.created_on, wiki_page.created_by, wiki_page.modified_on, wiki_page.modified_by FROM wiki_page WHERE (wiki_page.slug = 'problems') LIMIT 1 OFFSET 0;</pre></td><td>1.07ms</td></tr><tr><td><pre>SELECT  wiki_page.id, wiki_page.slug, wiki_page.title, wiki_page.body, wiki_page.tags, wiki_page.can_read, wiki_page.can_edit, wiki_page.changelog, wiki_page.html, wiki_page.render, wiki_page.is_active, wiki_page.created_on, wiki_page.created_by, wiki_page.modified_on, wiki_page.modified_by FROM wiki_page WHERE (wiki_page.slug = 'part2-normal') LIMIT 1 OFFSET 0;</pre></td><td>0.92ms</td></tr></tbody></table></div></td></tr></tbody></table></div><a href="https://cpp.pythonanywhere.com/skillbuilder/default/mysession/23#totop-2140d99b-fcad-4278-aa8b-3500baa9b0e8">Back to top</a></div><script><!--
-jQuery('.hidden').hide()
-//--></script></div>
-<div><table><tbody><tr><td style="font-weight:bold;vertical-align:top;">form</td><td style="vertical-align:top;">:</td><td><div><form action="https://cpp.pythonanywhere.com/skillbuilder/default/mysession/23#" enctype="multipart/form-data" method="post"><table><tbody><tr id="mysession_id__row"><td class="w2p_fl"><label for="mysession_id" id="mysession_id__label">Id: </label></td><td class="w2p_fw"><span id="mysession_id">23</span></td><td class="w2p_fc"></td></tr><tr id="mysession_user_name__row"><td class="w2p_fl"><label for="mysession_user_name" id="mysession_user_name__label">User Name: </label></td><td class="w2p_fw">student1</td><td class="w2p_fc"></td></tr><tr id="mysession_enrolled_on__row"><td class="w2p_fl"><label for="mysession_enrolled_on" id="mysession_enrolled_on__label">Enrolled On: </label></td><td class="w2p_fw">2014-11-12 20:05:19</td><td class="w2p_fc"></td></tr><tr id="mysession_started_on__row"><td class="w2p_fl"><label for="mysession_started_on" id="mysession_started_on__label">Started On: </label></td><td class="w2p_fw">2014-11-12 20:22:35</td><td class="w2p_fc"></td></tr><tr id="mysession_last_used_on__row"><td class="w2p_fl"><label for="mysession_last_used_on" id="mysession_last_used_on__label">Last Used On: </label></td><td class="w2p_fw">2014-12-07 21:25:27</td><td class="w2p_fc"></td></tr><tr id="mysession_lesson__row"><td class="w2p_fl"><label for="mysession_lesson" id="mysession_lesson__label">Lesson: </label></td><td class="w2p_fw"><select class="generic-widget" id="mysession_lesson" name="lesson"><option value=""></option><option selected="selected" value="1">lesson 01</option><option value="2">lesson 02</option><option value="3">lesson 03</option><option value="4">lesson 04</option><option value="5">lesson 05</option><option value="6">lesson 06</option><option value="7">lesson 07</option><option value="8">lesson 08</option><option value="9">lesson 09</option><option value="10">lesson 10</option><option value="11">lesson 11</option><option value="12">lesson 12</option><option value="13">lesson 13</option><option value="14">lesson 14</option><option value="15">lesson 15</option></select></td><td class="w2p_fc"></td></tr><tr id="mysession_screen__row"><td class="w2p_fl"><label for="mysession_screen" id="mysession_screen__label">Screen: </label></td><td class="w2p_fw"><input class="string" id="mysession_screen" name="screen" type="text" value="lesson1-1"></td><td class="w2p_fc"></td></tr><tr id="mysession_units__row"><td class="w2p_fl"><label for="mysession_units" id="mysession_units__label">Units: </label></td><td class="w2p_fw"><input class="integer" id="mysession_units" name="units" type="text" value="0"></td><td class="w2p_fc"></td></tr><tr id="mysession_Session_Name__row"><td class="w2p_fl"><label for="mysession_Session_Name" id="mysession_Session_Name__label">Session Name: </label></td><td class="w2p_fw"><input class="string" id="mysession_Session_Name" name="Session_Name" type="text" value="My Session"></td><td class="w2p_fc"></td></tr><tr id="mysession_Front_Zone_Temp__row"><td class="w2p_fl"><label for="mysession_Front_Zone_Temp" id="mysession_Front_Zone_Temp__label">Front Zone Temp: </label></td><td class="w2p_fw"><input class="double" id="mysession_Front_Zone_Temp" name="Front_Zone_Temp" readonly="readonly" type="text" value="430.00"></td><td class="w2p_fc"></td></tr><tr id="mysession_Middle_Zone_Temp__row"><td class="w2p_fl"><label for="mysession_Middle_Zone_Temp" id="mysession_Middle_Zone_Temp__label">Middle Zone Temp: </label></td><td class="w2p_fw"><input class="double" id="mysession_Middle_Zone_Temp" name="Middle_Zone_Temp" readonly="readonly" type="text" value="430.00"></td><td class="w2p_fc"></td></tr><tr id="mysession_Rear_Zone_Temp__row"><td class="w2p_fl"><label for="mysession_Rear_Zone_Temp" id="mysession_Rear_Zone_Temp__label">Rear Zone Temp: </label></td><td class="w2p_fw"><input class="double" id="mysession_Rear_Zone_Temp" name="Rear_Zone_Temp" readonly="readonly" type="text" value="400.00"></td><td class="w2p_fc"></td></tr><tr id="mysession_Mold_Core_Temp__row"><td class="w2p_fl"><label for="mysession_Mold_Core_Temp" id="mysession_Mold_Core_Temp__label">Mold Core Temp: </label></td><td class="w2p_fw"><input class="double" id="mysession_Mold_Core_Temp" name="Mold_Core_Temp" readonly="readonly" type="text" value="70.00"></td><td class="w2p_fc"></td></tr><tr id="mysession_Mold_Cavity_Temp__row"><td class="w2p_fl"><label for="mysession_Mold_Cavity_Temp" id="mysession_Mold_Cavity_Temp__label">Mold Cavity Temp: </label></td><td class="w2p_fw"><input class="double" id="mysession_Mold_Cavity_Temp" name="Mold_Cavity_Temp" readonly="readonly" type="text" value="70.00"></td><td class="w2p_fc"></td></tr><tr id="mysession_VPT_Setpoint__row"><td class="w2p_fl"><label for="mysession_VPT_Setpoint" id="mysession_VPT_Setpoint__label">Vpt Setpoint: </label></td><td class="w2p_fw"><input class="double" id="mysession_VPT_Setpoint" name="VPT_Setpoint" readonly="readonly" type="text" value="0.21"></td><td class="w2p_fc"></td></tr><tr id="mysession_Inj_Limit_Timer__row"><td class="w2p_fl"><label for="mysession_Inj_Limit_Timer" id="mysession_Inj_Limit_Timer__label">Inj Limit Timer: </label></td><td class="w2p_fw"><input class="double" id="mysession_Inj_Limit_Timer" name="Inj_Limit_Timer" readonly="readonly" type="text" value="5.00"></td><td class="w2p_fc"></td></tr><tr id="mysession_Holding_Timer__row"><td class="w2p_fl"><label for="mysession_Holding_Timer" id="mysession_Holding_Timer__label">Holding Timer: </label></td><td class="w2p_fw"><input class="double" id="mysession_Holding_Timer" name="Holding_Timer" readonly="readonly" type="text" value="5.00"></td><td class="w2p_fc"></td></tr><tr id="mysession_Mold_Closed_Timer__row"><td class="w2p_fl"><label for="mysession_Mold_Closed_Timer" id="mysession_Mold_Closed_Timer__label">Mold Closed Timer: </label></td><td class="w2p_fw"><input class="double" id="mysession_Mold_Closed_Timer" name="Mold_Closed_Timer" readonly="readonly" type="text" value="25.00"></td><td class="w2p_fc"></td></tr><tr id="mysession_Mold_Open_Timer__row"><td class="w2p_fl"><label for="mysession_Mold_Open_Timer" id="mysession_Mold_Open_Timer__label">Mold Open Timer: </label></td><td class="w2p_fw"><input class="double" id="mysession_Mold_Open_Timer" name="Mold_Open_Timer" readonly="readonly" type="text" value="3.00"></td><td class="w2p_fc"></td></tr><tr id="mysession_Max_Inj_Press__row"><td class="w2p_fl"><label for="mysession_Max_Inj_Press" id="mysession_Max_Inj_Press__label">Max Inj Press: </label></td><td class="w2p_fw"><input class="double" id="mysession_Max_Inj_Press" name="Max_Inj_Press" readonly="readonly" type="text" value="20000.00"></td><td class="w2p_fc"></td></tr><tr id="mysession_Holding_Press__row"><td class="w2p_fl"><label for="mysession_Holding_Press" id="mysession_Holding_Press__label">Holding Press: </label></td><td class="w2p_fw"><input class="double" id="mysession_Holding_Press" name="Holding_Press" readonly="readonly" type="text" value="9000.00"></td><td class="w2p_fc"></td></tr><tr id="mysession_Back_Press__row"><td class="w2p_fl"><label for="mysession_Back_Press" id="mysession_Back_Press__label">Back Press: </label></td><td class="w2p_fw"><input class="double" id="mysession_Back_Press" name="Back_Press" readonly="readonly" type="text" value="1300.00"></td><td class="w2p_fc"></td></tr><tr id="mysession_Clamp_Force__row"><td class="w2p_fl"><label for="mysession_Clamp_Force" id="mysession_Clamp_Force__label">Clamp Force: </label></td><td class="w2p_fw"><input class="double" id="mysession_Clamp_Force" name="Clamp_Force" readonly="readonly" type="text" value="95.00"></td><td class="w2p_fc"></td></tr><tr id="mysession_Screw_RPM__row"><td class="w2p_fl"><label for="mysession_Screw_RPM" id="mysession_Screw_RPM__label">Screw Rpm: </label></td><td class="w2p_fw"><input class="double" id="mysession_Screw_RPM" name="Screw_RPM" readonly="readonly" type="text" value="150.00"></td><td class="w2p_fc"></td></tr><tr id="mysession_Screw_Back__row"><td class="w2p_fl"><label for="mysession_Screw_Back" id="mysession_Screw_Back__label">Screw Back: </label></td><td class="w2p_fw"><input class="double" id="mysession_Screw_Back" name="Screw_Back" readonly="readonly" type="text" value="3.20"></td><td class="w2p_fc"></td></tr><tr id="mysession_Fill_Rate_1__row"><td class="w2p_fl"><label for="mysession_Fill_Rate_1" id="mysession_Fill_Rate_1__label">Fill Rate 1: </label></td><td class="w2p_fw"><input class="double" id="mysession_Fill_Rate_1" name="Fill_Rate_1" readonly="readonly" type="text" value="60.00"></td><td class="w2p_fc"></td></tr><tr id="mysession_Fill_Rate_2__row"><td class="w2p_fl"><label for="mysession_Fill_Rate_2" id="mysession_Fill_Rate_2__label">Fill Rate 2: </label></td><td class="w2p_fw"><input class="double" id="mysession_Fill_Rate_2" name="Fill_Rate_2" readonly="readonly" type="text" value="60.00"></td><td class="w2p_fc"></td></tr><tr id="mysession_Fill_Rate_3__row"><td class="w2p_fl"><label for="mysession_Fill_Rate_3" id="mysession_Fill_Rate_3__label">Fill Rate 3: </label></td><td class="w2p_fw"><input class="double" id="mysession_Fill_Rate_3" name="Fill_Rate_3" readonly="readonly" type="text" value="60.00"></td><td class="w2p_fc"></td></tr><tr id="mysession_Fill_Rate_4__row"><td class="w2p_fl"><label for="mysession_Fill_Rate_4" id="mysession_Fill_Rate_4__label">Fill Rate 4: </label></td><td class="w2p_fw"><input class="double" id="mysession_Fill_Rate_4" name="Fill_Rate_4" readonly="readonly" type="text" value="60.00"></td><td class="w2p_fc"></td></tr><tr id="mysession_Fill_Rate_5__row"><td class="w2p_fl"><label for="mysession_Fill_Rate_5" id="mysession_Fill_Rate_5__label">Fill Rate 5: </label></td><td class="w2p_fw"><input class="double" id="mysession_Fill_Rate_5" name="Fill_Rate_5" readonly="readonly" type="text" value="60.00"></td><td class="w2p_fc"></td></tr><tr id="submit_record__row"><td class="w2p_fl"></td><td class="w2p_fw"><input type="submit" value="Submit" class="btn"></td><td class="w2p_fc"></td></tr></tbody></table><div style="display:none;"><input name="id" type="hidden" value="23"><input name="_formkey" type="hidden" value="d6c538ed-bf96-465a-b678-2e51bcf69af0"><input name="_formname" type="hidden" value="mysession/23"></div></form></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">lesson</td><td style="vertical-align:top;">:</td><td><div><table><tbody><tr><td style="font-weight:bold;vertical-align:top;">Cushion_Size</td><td style="vertical-align:top;">:</td><td><div>0.21</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">Cycle_Time</td><td style="vertical-align:top;">:</td><td><div>28.82</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">Fill_Time</td><td style="vertical-align:top;">:</td><td><div>0.816</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">High_Melt_Temp</td><td style="vertical-align:top;">:</td><td><div>0L</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">Injection_Limit_Timer</td><td style="vertical-align:top;">:</td><td><div>0L</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">Low_Max_Inj_Press</td><td style="vertical-align:top;">:</td><td><div>0L</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">Low_Melt_Temp</td><td style="vertical-align:top;">:</td><td><div>0L</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">Melt_Temp</td><td style="vertical-align:top;">:</td><td><div>432.0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">No_Cushion</td><td style="vertical-align:top;">:</td><td><div>0L</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">Part_Length</td><td style="vertical-align:top;">:</td><td><div>6.499</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">Part_Weight</td><td style="vertical-align:top;">:</td><td><div>3.205</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">Screw_Back_Press</td><td style="vertical-align:top;">:</td><td><div>0L</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">Screw_Back_Time</td><td style="vertical-align:top;">:</td><td><div>0L</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">answer</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">correct</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">delete_record</td><td style="vertical-align:top;">:</td><td><div>&lt;gluon.dal.RecordDeleter object at 0x7f06412bbd10&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">graphic</td><td style="vertical-align:top;">:</td><td><div>info</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">id</td><td style="vertical-align:top;">:</td><td><div>1823L</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">incorrect</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">part</td><td style="vertical-align:top;">:</td><td><div>part2-normal</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">percent_done</td><td style="vertical-align:top;">:</td><td><div>10L</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">problems</td><td style="vertical-align:top;">:</td><td><div>problems</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">screen</td><td style="vertical-align:top;">:</td><td><div>lesson1-1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">screennext</td><td style="vertical-align:top;">:</td><td><div>lesson1-2</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">screenprev</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">status</td><td style="vertical-align:top;">:</td><td><div>status1-1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">update_record</td><td style="vertical-align:top;">:</td><td><div>&lt;gluon.dal.RecordUpdater object at 0x7f06412bbcd0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">video</td><td style="vertical-align:top;">:</td><td><div>video1-1</div></td></tr></tbody></table></div></td></tr></tbody></table></div>
-
-            
-        </div>
 
         
     </section><!--/main-->
@@ -318,12 +376,14 @@ jQuery('.hidden').hide()
         <footer class="footer span12" id="footer">
             <div class="footer-content">
                  <!-- this is default footer -->
-                <div class="copyright pull-left">
-                    <img src="./lesson_files/horizlogo.jpg">
+                <div class="pull-left">
+                    <img class="logo--v1" src="./lesson_files/horizlogo.jpg">
                 </div>
                 <div id="poweredBy" class="pull-right">
                     Copyright © 2014
                 </div>
+
+                <div class="clearfix"></div>
                 
             </div>
         </footer>
@@ -341,7 +401,6 @@ jQuery('.hidden').hide()
       <![endif]-->
   
   
-  <script src="./lesson_files/share.js"></script>
 
 
-<div id="socialdrawer" style="opacity: 0.7; z-index: 3000; border-style: solid; border-width: 1px 0px 0px 1px; border-color: rgb(102, 102, 102); height: 20px; width: 40px; position: fixed; bottom: 0px; right: 0px; padding: 2px 5px; overflow: hidden; border-top-left-radius: 12px; -webkit-box-shadow: rgba(0, 0, 0, 0.498039) -3px -3px 3px; box-shadow: rgba(0, 0, 0, 0.498039) -3px -3px 3px; background: rgb(255, 255, 255);"><span style="float: left; margin: 2px 3px; text-shadow: rgb(255, 255, 255) 1px 1px 1px; color: rgb(68, 68, 68); font-size: 12px; line-height: 1em;">Share<br></span><div id="sicons"><a href="http://twitter.com/home?status=SkillBuilder%20https%3A%2F%2Fcpp.pythonanywhere.com%2Fskillbuilder%2Fdefault%2Fmysession%2F23" id="twit" title="Share on twitter" style="float: left; width: 32px; margin: 3px 2px 2px; padding: 0px; cursor: pointer;"><img src="./lesson_files/twitter.png" alt="Share on Twitter" width="32" height="32" style="display: none;"></a><a href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fcpp.pythonanywhere.com%2Fskillbuilder%2Fdefault%2Fmysession%2F23" id="facebook" title="Share on Facebook" style="float: left; width: 32px; margin: 3px 2px 2px; padding: 0px; cursor: pointer;"><img src="./lesson_files/facebook.png" alt="Share on facebook" width="32" height="32" style="display: none;"></a><a href="https://plus.google.com/share?url=https%3A%2F%2Fcpp.pythonanywhere.com%2Fskillbuilder%2Fdefault%2Fmysession%2F23" id="gplus" title="Share on Google Plus" style="float: left; width: 32px; margin: 3px 2px 2px; padding: 0px; cursor: pointer;"><img src="./lesson_files/gplus-32.png" alt="Share on Google Plus" width="32" height="32" style="display: none;"></a></div></div></body></html>
+</html>
