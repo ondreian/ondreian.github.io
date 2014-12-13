@@ -133,7 +133,11 @@
 <form action="https://cpp.pythonanywhere.com/skillbuilder/default/mysession/23#" class='lesson-holder--v1' enctype="multipart/form-data" method="post">
 <div class="row">
     <div class="span12">
-    <h3 class='lesson-title--v1'>SkillBuilder Lesson 1: Understanding the Injection Molding Sequence</h3>
+
+    <div class="lesson-header--v1">
+      <h3 class='lesson-title--v1'>SkillBuilder Lesson 1: Understanding the Injection Molding Sequence</h3>
+      <h6 class='lesson-objective--v1'>Study the molding sequence for this machine to learn when each timer operates</h6>
+    </div>
 
 <div class="row states-container--v1">
 
@@ -323,7 +327,12 @@
 <!-- <hr> -->
 <div class="row">
 	<div class="span6">
-        <span style="color: blue"><strong>Purpose of Lesson</strong></span><p><br> Study the molding sequence for this machine to learn when each timer operates.</p><p>Total cycle time = Fill time + Mold Closed time + Mold Open time. <br> <br> <img src="./lesson_files/Image1.gif"> <br> <br> <audio autoplay="autoplay" controls="controls" src="/skillbuilder/static/L1/SCRN1.mp3"></audio></p>
+      <!--
+        <span style="color: blue"><strong>Purpose of Lesson</strong></span><p><br> Study the molding sequence for this machine to learn when each timer operates.</p><p>Total cycle time = Fill time + Mold Closed time + Mold Open time. <br> <br> 
+
+      -->
+
+        <img src="./lesson_files/Image1.gif"> <br> <br> <audio autoplay="autoplay" controls="controls" src="/skillbuilder/static/L1/SCRN1.mp3"></audio></p>
         
 		<input type="submit" value="&lt; Back" class="btn btn-success" name="screenprev" disabled="">
         
@@ -360,10 +369,12 @@
         </div>
         <div class="row">
           <h3>Current Part</h3>
+          <!-- TODO remove text
           <p>
           <br> This is the part we are molding. 
-          <img src="./lesson_files/normal.jpg">
-          </p>
+          -->
+          <img class="current-part--v1" src="./lesson_files/normal.jpg">
+          <!-- </p> -->
         </div>
     </div>
 </div>

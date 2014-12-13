@@ -1,11 +1,12 @@
+body.lesson--v1 .lesson-header--v1 {
+  margin-bottom: 20px;
+}
 body.lesson--v1 form.lesson-holder--v1 {
   padding-top: 50px;
 }
-body.lesson--v1 form.lesson-holder--v1 h3.lesson-title--v1 {
-  margin-bottom: 30px;
-}
 body.lesson--v1 .states-container--v1 {
   padding-bottom: 20px;
+  margin-bottom: 30px;
   background: #f5f5f5;
   border: 1px solid #e5e5e5;
   overflow: hidden;
