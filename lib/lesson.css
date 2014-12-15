@@ -1,5 +1,13 @@
 body.lesson--v1 .lesson-header--v1 {
   margin-bottom: 20px;
+  float: left;
+}
+body.lesson--v1 .current-part--v1 {
+  float: right;
+}
+body.lesson--v1 .current-part--v1 > img {
+  max-height: 80px;
+  padding: 0px 30px;
 }
 body.lesson--v1 form.lesson-holder--v1 {
   padding-top: 50px;
@@ -91,4 +99,27 @@ body.lesson--v1 ul.errors-wrapper--v1 li.warn span.icon span.ion-lightbulb {
 body.lesson--v1 ul.errors-wrapper--v1 li.ok span.icon span.ion-lightbulb {
   display: inline;
   color: #40d049;
+}
+body.lesson--v1 .audio-wrapper--v1 img {
+  display: block;
+  margin-bottom: 20px;
+  border: 1px solid #e5e5e5;
+  max-width: 290px;
+  padding: 15px;
+}
+body.lesson--v1 .audio-wrapper--v1 audio {
+  display: block;
+  margin: 10px 0px;
+  width: 320px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+body.lesson--v1 .actions {
+  padding: 10px 0px;
+}
+body.lesson--v1 .actions .btn {
+  text-transform: lowercase;
+  width: 100px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
 }

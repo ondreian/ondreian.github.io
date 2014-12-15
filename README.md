@@ -34,6 +34,8 @@ Grepping the html of a page should reveal where these classes (or elements) were
 + replace br tags with div wrappers
 + add variable-containers to wrap inputs and titles in the states containers
 + covert errors HTML to a UL and class toggleable states
++ removed .btn-large class from forward button
++ add .actions class from bootstrap around input buttons on lessons
 
 ### [index page](http://ondreian.github.io/index.html)
 
