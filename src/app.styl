@@ -11,12 +11,50 @@
       margin-left 0px
 */
 
+textarea, 
+input[type="text"], 
+input[type="password"], 
+input[type="datetime"], 
+input[type="datetime-local"], 
+input[type="date"], 
+input[type="month"], 
+input[type="time"], 
+input[type="week"], 
+input[type="number"], 
+input[type="email"], 
+input[type="url"], 
+input[type="search"], 
+input[type="tel"], 
+input[type="color"], 
+.uneditable-input
+  //width 300px
+  border-radius 0px
+
+  &:focus
+    outline none
+    box-shadow none
+
 .footer
   border-top 0px
 
 img.logo--v1
   height 50px
 
+.btn
+  border-radius 0px
+  text-transform lowercase
+  padding 5px 20px
+  font-weight bold
+  
+
+  &.btn-default
+    background #e5e5e5
+    border 1px solid #c0c0c0
+    text-shadow none
+    border-radius 0px
+
+.web2py_grid .row_buttons a
+  padding 5px 20px
 
 // Special overrides for web2py
 

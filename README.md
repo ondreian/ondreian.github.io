@@ -8,7 +8,7 @@ Grepping the html of a page should reveal where these classes (or elements) were
 ### TODOs
 
 + index page styles
-+ account page styles
++ flash messages associated with errors on lesson page?
 + concatenation of files for production
 + add states of current lesson to needed divs
 
@@ -19,6 +19,11 @@ Grepping the html of a page should reveal where these classes (or elements) were
 + removed share.js (social drawer creator)
 + remove .copyright from logo container
 + add img.logo--v1 to logo in footer
+
+## BUGLIST
+
++ session 29 input fields won't let you edit them
++ audio says 8500 PSI, flash says 8700 psi
 
 
 ### [login page](http://ondreian.github.io/login.html)
@@ -37,6 +42,17 @@ Grepping the html of a page should reveal where these classes (or elements) were
 + removed .btn-large class from forward button
 + add .actions class from bootstrap around input buttons on lessons
 
-### [index page](http://ondreian.github.io/index.html)
+### [manager index page](http://ondreian.github.io/index.html)
++ add body.web2py-index-page--v1
 
 ### [account page](http://ondreian.github.io/account.html)
++ sessions field?
++ add body.web2py-overrides--v1
+
+### [add student page](http://ondreian.github.io/student-add.html)
++ add body.web2py-overrides--v1
+
+### [edit student page](http://ondreian.github.io/student-edit.html)
++ add body.web2py-overrides--v1
+
+### [password reset](http://ondreian.github.io/password-reset.html)
