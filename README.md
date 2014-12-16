@@ -7,10 +7,11 @@ Grepping the html of a page should reveal where these classes (or elements) were
 
 ### TODOs
 
-+ index page styles
+
 + flash messages associated with errors on lesson page?
 + concatenation of files for production
 + add states of current lesson to needed divs
++ add action types to links in index page table
 
 ### Global
 
@@ -42,8 +43,10 @@ Grepping the html of a page should reveal where these classes (or elements) were
 + removed .btn-large class from forward button
 + add .actions class from bootstrap around input buttons on lessons
 
-### [manager index page](http://ondreian.github.io/index.html)
+### [student index page](http://ondreian.github.io/student-index.html) & [manager index page](http://ondreian.github.io/manager-index.html)
 + add body.web2py-index-page--v1
++ add div.actions wrapper to a tags at the top
+
 
 ### [account page](http://ondreian.github.io/account.html)
 + sessions field?
