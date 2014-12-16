@@ -1,10 +1,24 @@
 <html>
   <head>
+    <script src="./profile_files/jquery.js" type="text/javascript"></script>
+    <script>
+      $.each($('a'), function(ele){
+        $(ele).attr('target', "_blank")
+      });
+
+    </script>
     
   </head>
   <body>
     <nav>
-    <a href="/login.html">login page</a>
+      <a href="/login.html">login page</a>
+      <a href="/account.html">account page</a>
+      <a href="/lesson.html">lesson page</a>
+      <a href="/manager-index.html">manager index</a>
+      <a href="/student-index.html">student index</a>
+      <a href="/student-add.html">student add</a>
+      <a href="/student-edit.html">student edit</a>
+
     </nav>
 
   </body>
