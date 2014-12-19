@@ -1,3 +1,10 @@
+body.lesson--v1 .flash--v1 {
+  padding: 10px;
+  border: 1px solid #bd0500;
+  background: #ff5b57;
+  color: #f1f1f1;
+  margin-bottom: 20px;
+}
 body.lesson--v1 .lesson-percent--v1 {
   margin-left: 10px;
   font-size: 12px;
@@ -7,9 +14,6 @@ body.lesson--v1 .lesson-percent--v1 {
   border-radius: 20px;
   background: #e5e5e5;
   color: #333;
-}
-body.lesson--v1 .current-part--v1 > img {
-  padding: 10px;
 }
 body.lesson--v1 form.lesson-holder--v1 {
   padding-top: 50px;
@@ -102,8 +106,12 @@ body.lesson--v1 ul.errors-wrapper--v1 li.ok span.icon span.ion-lightbulb {
   display: inline;
   color: #40d049;
 }
+body.lesson--v1 .left-column--v1 {
+  margin-left: 0px;
+  width: 600px;
+}
 body.lesson--v1 .left-column--v1 .left-column-content--v1 {
-  padding: 0px 10px;
+  padding: 10px 0px;
 }
 body.lesson--v1 .left-column--v1 h6 {
   padding: 0px 15px;
@@ -135,14 +143,15 @@ body.lesson--v1 .left-column--v1 ol input {
 body.lesson--v1 .left-column--v1 img {
   display: block;
   border: 1px solid #e5e5e5;
-  width: 540px;
+  width: 100%;
+  max-height: 300px;
   margin-bottom: 15px;
   background: #fff;
 }
 body.lesson--v1 .left-column--v1 audio {
   display: block;
   margin: 10px 0px;
-  width: 540px;
+  width: 100%;
   -webkit-border-radius: 0px;
   border-radius: 0px;
 }
@@ -164,19 +173,21 @@ body.lesson--v1 .left-column--v1 p input {
 }
 body.lesson--v1 .left-column--v1 .actions {
   padding: 10px 0px;
-  width: 330px;
-  margin: 0 auto;
 }
 body.lesson--v1 .left-column--v1 .actions .btn {
   text-transform: lowercase;
   font-weight: normal;
-  width: 100px;
+  width: 96px;
   background: #7ec135;
   border: 2px;
   border-color: #7ec135;
   padding: 10px 20px;
   text-shadow: none;
   color: #fff;
+  margin-right: 0px;
+}
+body.lesson--v1 .left-column--v1 .actions .btn:not(:last-child) {
+  margin-right: 5px;
 }
 body.lesson--v1 .left-column--v1 .actions .btn:focus {
   outline: none;
@@ -187,7 +198,7 @@ body.lesson--v1 .left-column--v1 .actions .btn[disabled] {
   color: #888;
 }
 body.lesson--v1 .right-column--v1 .right-column-content--v1 {
-  padding: 0px 10px;
+  padding: 10px 0px;
 }
 body.lesson--v1 .right-column--v1 .right-column-content--v1 > h3 {
   font-size: 18px;
@@ -195,6 +206,20 @@ body.lesson--v1 .right-column--v1 .right-column-content--v1 > h3 {
 body.lesson--v1 .right-column--v1 .right-column-content--v1 > p {
   padding: 10px;
   border: 1px solid #e5e5e5;
-  margin: 10px 0px;
+  margin: 0px 0px 20px 0px;
   background: #f5f5f5;
+}
+body.lesson--v1 .right-column--v1 .right-column-content--v1 .current-part--v1 {
+  border: 1px solid #e5e5e5;
+}
+body.lesson--v1 .right-column--v1 .right-column-content--v1 .current-part--v1 > h4 {
+  margin: 0px 0px 15px 0px;
+  padding: 10px;
+  border-bottom: 1px solid #e5e5e5;
+  background: #f5f5f5;
+}
+body.lesson--v1 .right-column--v1 .right-column-content--v1 .current-part--v1 > img {
+  padding: 5px 0px 20px 0px;
+  display: block;
+  margin: 0 auto;
 }

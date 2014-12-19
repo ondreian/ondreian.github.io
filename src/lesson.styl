@@ -5,6 +5,12 @@ warning_yellow = #FFCC4F
 ok_green = #40D049
 
 body.lesson--v1
+  .flash--v1
+    padding 10px
+    border 1px solid error_red
+    background lighten(error_red, 30)
+    color #f1f1f1
+    margin-bottom 20px
   
   .lesson-percent--v1
     margin-left 10px
@@ -15,10 +21,6 @@ body.lesson--v1
     background #e5e5e5
     color #333
 
-  .current-part--v1
-
-    > img
-      padding 10px
 
 
   form.lesson-holder--v1
@@ -118,8 +120,11 @@ body.lesson--v1
           color ok_green
 
   .left-column--v1
+    margin-left 0px
+    width 600px
+
     .left-column-content--v1
-      padding 0px 10px
+      padding 10px 0px
 
     h6
       padding 0px 15px
@@ -151,14 +156,15 @@ body.lesson--v1
     img
       display block
       border 1px solid #e5e5e5
-      width 540px
+      width 100%
+      max-height 300px
       margin-bottom 15px
       background #fff
 
     audio
       display block
       margin 10px 0px
-      width 540px
+      width 100%
       border-radius 0px
 
     video
@@ -179,19 +185,22 @@ body.lesson--v1
 
     .actions
       padding 10px 0px
-      width 330px
-      margin 0 auto
+      
 
       .btn
         text-transform lowercase
         font-weight normal
-        width 100px
+        width 96px
         background #7ec135
         border 2px
         border-color #7ec135
         padding 10px 20px
         text-shadow none
         color #fff
+        margin-right 0px
+
+        &:not(:last-child)
+          margin-right 5px
 
         &:focus
           outline none
@@ -205,12 +214,27 @@ body.lesson--v1
   .right-column--v1
 
     .right-column-content--v1
-      padding 0px 10px
+      padding 10px 0px
 
       > h3
         font-size 18px
+
       > p
         padding 10px
         border #e5e5e5
-        margin 10px 0px
+        margin 0px 0px 20px 0px
         background #f5f5f5
+
+      .current-part--v1
+        border 1px solid #e5e5e5
+
+        > h4
+          margin 0px 0px 15px 0px
+          padding 10px
+          border-bottom 1px solid #e5e5e5
+          background #f5f5f5
+
+        > img
+          padding 5px 0px 20px 0px
+          display block
+          margin 0 auto

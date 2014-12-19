@@ -20,6 +20,7 @@ Grepping the html of a page should reveal where these classes (or elements) were
 + removed share.js (social drawer creator)
 + remove .copyright from logo container
 + add img.logo--v1 to logo in footer
++ remove <br> tags from lesson page (their formatting will override CSS)
 
 ## BUGLIST
 
@@ -40,6 +41,7 @@ Grepping the html of a page should reveal where these classes (or elements) were
 + instead of the gif that's being loaded (info, summary, question) use ionicon tags for consistent theme (examples are in all HTML)
 + convert questions to use OL tag (instead of <br> tags) so it can be formatted
 + add left-column header HTML (h6 tag) with ionicon
++ use .flash--v1 HTML structure for flash messages
 
 
 ### [login page](http://ondreian.github.io/login.html)
