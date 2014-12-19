@@ -42,6 +42,13 @@ Grepping the html of a page should reveal where these classes (or elements) were
 + covert errors HTML to a UL and class toggleable states
 + removed .btn-large class from forward button
 + add .actions class from bootstrap around input buttons on lessons
++ add .right-column--v1 and .left-column--v1 to the .span6 that wrap the lesson content and the "current problems" areas
++ add .left-column-content--v1 for padding in the .left-column--v1
++ remove < and > from buttons
++ add the type of content to the class of the .left-column--v1 (question, video, image, text) 
++ instead of the gif that's being loaded use ionicon tags for consistent theme (examples are in all HTML)
++ convert questions to use OL tag (instead of <br> tags) so it can be formatted
++ add left-column header HTML (h6 tag)
 
 ### [student index page](http://ondreian.github.io/student-index.html) & [manager index page](http://ondreian.github.io/manager-index.html)
 + add body.web2py-index-page--v1
