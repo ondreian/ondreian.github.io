@@ -149,6 +149,19 @@ body.lesson--v1 .left-column--v1 audio {
 body.lesson--v1 .left-column--v1 video {
   width: 540px;
 }
+body.lesson--v1 .left-column--v1 p input {
+  display: block;
+  margin: 10px;
+  width: 100px;
+  background: #7ec135;
+  border: 2px;
+  border-color: #7ec135;
+  font-weight: bold;
+  text-transform: lowercase;
+  padding: 10px 20px;
+  text-shadow: none;
+  color: #fff;
+}
 body.lesson--v1 .left-column--v1 .actions {
   padding: 10px 0px;
   width: 330px;
@@ -161,8 +174,6 @@ body.lesson--v1 .left-column--v1 .actions .btn {
   background: #7ec135;
   border: 2px;
   border-color: #7ec135;
-  font-weight: bold;
-  text-transform: lowercase;
   padding: 10px 20px;
   text-shadow: none;
   color: #fff;
