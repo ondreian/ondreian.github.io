@@ -42,6 +42,7 @@ Grepping the html of a page should reveal where these classes (or elements) were
 + convert questions to use OL tag (instead of <br> tags) so it can be formatted
 + add left-column header HTML (h6 tag) with ionicon
 + use .flash--v1 HTML structure for flash messages
++ remove br tag from Fill Rate column (precedes VPT Setpoint) and wrap VPT Setpoint in div.variable-wrapper--v1
 
 
 ### [login page](http://ondreian.github.io/login.html)

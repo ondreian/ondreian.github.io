@@ -1,8 +1,15 @@
 @import 'nib'
 
-error_red = #BD0500
+error_red      = #BD0500
 warning_yellow = #FFCC4F
-ok_green = #40D049
+ok_green       = #40D049
+
+// For Theme
+light_grey     = #f7f7f7
+grey           = #f2f2f2
+dark_grey      = #e5e5e5
+
+accent         = #292929
 
 body.lesson--v1
   .flash--v1
@@ -18,7 +25,7 @@ body.lesson--v1
     width 10px
     padding 5px
     border-radius 20px
-    background #e5e5e5
+    background dark_grey
     color #333
 
 
@@ -29,21 +36,30 @@ body.lesson--v1
   .states-container--v1
     padding-bottom 20px
     margin-bottom 30px
-    background #f5f5f5
-    border 1px solid #e5e5e5
+    background light_grey
+    border 1px solid dark_grey
     overflow hidden
 
   .column--v1
-    padding 0px 5px
+    padding 0px 13px
     margin-left 0px
     height 100%
     //100% height hack for Bootstrap
-    padding-bottom 181px
-    margin-bottom -181px
+    padding-bottom 300px
+    margin-bottom -300px
+    color #666
     
+    h4 
+      text-align center   
+      color #3e3e3e
 
-  .column--v1:not(:last-child)
-    border-right 1px solid #e5e5e5
+    &:not(:last-child)
+      border-right 1px solid dark_grey
+
+    .fillrate
+      margin-right 15px
+
+
 
   .variable-wrapper--v1
     padding 7px 5px
@@ -56,21 +72,36 @@ body.lesson--v1
       border-radius 0px
       padding 5px
       margin-top 5px
+      border-color #7ec135
 
-      &:not(#mysession_Session_Name)
-        border-color #7ec135
+      &:disabled, &[readonly]
+        border 1px dashed #c0c0c0
 
-        &:disabled, &[readonly]
+        &:focus
+          outline none
           border 1px dashed #c0c0c0
+          box-shadow none
 
-          &:focus
-            outline none
-            border 1px dashed #c0c0c0
-            box-shadow none
+  .gradient--v1
+    width 409px
+    margin-left 0px
+    background-color #f1f1f1
+    background-image linear-gradient(#f1f1f1,#e5e5e5)
+    height 100%
+    //100% height hack for Bootstrap
+    padding-bottom 300px
+    margin-bottom -300px
+
+  .column--v1.outputs-column--v1,
+  .errors-column--v1
+    border-right 0px
+
+  .column--v1.outputs-column--v1
+    input[readonly]
+      border 1px solid dark_grey
 
   .errors-column--v1
-    padding-top 20px
-    padding-left 20px
+    padding-left 30px
 
   ul.errors-wrapper--v1
     list-style-type none
@@ -79,7 +110,7 @@ body.lesson--v1
 
     li
       margin 0
-      padding 10px 5px
+      padding 10px 0px
       display block
       overflow hidden
       // Stops pseudo animation in Chrome/FF for floating stacked elements
@@ -121,7 +152,7 @@ body.lesson--v1
 
   .left-column--v1
     margin-left 0px
-    width 600px
+    //width 600px
 
     .left-column-content--v1
       padding 10px 0px
@@ -155,8 +186,8 @@ body.lesson--v1
 
     img
       display block
-      border 1px solid #e5e5e5
-      width 100%
+      border 1px solid dark_grey
+      //width 100%
       max-height 300px
       margin-bottom 15px
       background #fff
@@ -206,12 +237,13 @@ body.lesson--v1
           outline none
 
         &[disabled]
-          background #e5e5e5
+          background dark_grey
           border 1px dashed #c0c0c0
           color #888
 
 
   .right-column--v1
+    margin-left 60px
 
     .right-column-content--v1
       padding 10px 0px
@@ -221,18 +253,18 @@ body.lesson--v1
 
       > p
         padding 10px
-        border #e5e5e5
+        border dark_grey
         margin 0px 0px 20px 0px
-        background #f5f5f5
+        background light_grey
 
       .current-part--v1
-        border 1px solid #e5e5e5
+        border 1px solid dark_grey
 
         > h4
           margin 0px 0px 15px 0px
           padding 10px
-          border-bottom 1px solid #e5e5e5
-          background #f5f5f5
+          border-bottom 1px solid dark_grey
+          background light_grey
 
         > img
           padding 5px 0px 20px 0px
