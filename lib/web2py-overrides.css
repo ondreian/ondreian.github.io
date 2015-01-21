@@ -64,9 +64,6 @@ body.web2py-index-page--v1 .actions a:nth-child(3) {
   background: #32177e;
   border-color: #4823b0;
 }
-body.web2py-index-page--v1 col[data-column='3'] {
-  width: 700px;
-}
 body.web2py-index-page--v1 table {
   border: 1px solid #e5e5e5;
 }

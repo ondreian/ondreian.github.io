@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"erro",
+				"errors-column--v1"
+			],
+			[
+				"out",
+				"outputs-column--v1"
+			],
+			[
 				"err",
 				"error_red"
 			],
@@ -26,10 +34,6 @@
 			[
 				"warn",
 				"warning_yellow"
-			],
-			[
-				"erro",
-				"error_red"
 			],
 			[
 				"text",
@@ -510,10 +514,6 @@
 			[
 				"dev",
 				"dev-routes"
-			],
-			[
-				"max",
-				"max_description"
 			]
 		]
 	},
@@ -523,40 +523,24 @@
 			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 2629,
+				"buffer_size": 2741,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "index.html",
+			"file": "lesson.html",
 			"settings":
 			{
-				"buffer_size": 1325,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "Shadows are fleeting, they wane and are lengthened.;Hallowed hands and blades, in them I am strengthened.;Align with me, my sisters and my brothers-;Dance in his shadows and never another’s.;Offer your silence to our liege, Lord Onar –;With him we are shielded, though near and afar.;",
-			"settings":
-			{
-				"buffer_size": 284,
-				"line_ending": "Windows"
+				"buffer_size": 26489,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "src/lesson.styl",
 			"settings":
 			{
-				"buffer_size": 4348,
+				"buffer_size": 4960,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "lesson-image.html",
-			"settings":
-			{
-				"buffer_size": 19515,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -609,14 +593,14 @@
 	],
 	"file_history":
 	[
+		"/C/dev/style/cpp-terminal/index.html",
+		"/C/dev/style/cpp-terminal/lesson-image.html",
 		"/C/dev/style/cpp-terminal/lesson-info.html",
 		"/C/dev/style/cpp-terminal/lesson-summary.html",
 		"/C/dev/style/cpp-terminal/lesson-video.html",
 		"/C/dev/style/cpp-terminal/lesson.html",
-		"/C/dev/style/cpp-terminal/lesson-image.html",
 		"/C/dev/style/cpp-terminal/lesson-question.html",
 		"/C/dev/style/cpp-terminal/src/lesson.styl",
-		"/C/dev/style/cpp-terminal/index.html",
 		"/C/dev/style/cpp-terminal/password-reset.html",
 		"/C/dev/style/cpp-terminal/src/web2py-overrides.styl",
 		"/C/dev/style/cpp-terminal/src/auth.styl",
@@ -755,6 +739,11 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"dark_grey",
+			"background grey",
+			"#33",
+			"#e5e5e5",
+			"#f5f5f5",
 			"\\n",
 			"img",
 			"<span class=\"ion-alert\"></span>",
@@ -877,12 +866,7 @@
 			">\\t <k",
 			"<k ",
 			"/keys>",
-			"/>",
-			"background_style",
-			"$background_style",
-			"go2",
-			".en",
-			"tts"
+			"/>"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -890,6 +874,9 @@
 		"regex": true,
 		"replace_history":
 		[
+			"background light_grey",
+			"dark_grey",
+			"grey",
 			";",
 			"",
 			"</div><div class=\"variable-wrapper--v1\">",
@@ -1014,10 +1001,7 @@
 			"@account",
 			"archetypes",
 			"\"",
-			"",
-			":fulls]",
-			"listing",
-			"ebay/"
+			""
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1037,15 +1021,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2629,
+						"buffer_size": 2741,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1751,
-								1751
+								1863,
+								1863
 							]
 						],
 						"settings":
@@ -1063,31 +1047,31 @@
 				},
 				{
 					"buffer": 1,
-					"file": "index.html",
+					"file": "lesson.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1325,
+						"buffer_size": 26489,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1015,
-								1015
+								23869,
+								23869
 							]
 						],
 						"settings":
 						{
-							"origPos": 0.0,
+							"origPos": 735.0,
 							"syncScroll": false,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 735.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1095,95 +1079,34 @@
 				},
 				{
 					"buffer": 2,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 284,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								284,
-								0
-							]
-						],
-						"settings":
-						{
-							"origPos": 0.0,
-							"syncScroll": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "src/lesson.styl",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4348,
+						"buffer_size": 4960,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2888,
-								2888
+								1052,
+								1052
 							]
 						],
 						"settings":
 						{
-							"origPos": 2212.0,
+							"origPos": 276.0,
 							"syncScroll": false,
 							"syntax": "Packages/Stylus/Stylus.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2212.0,
+						"translation.y": 276.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "lesson-image.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 19515,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								17580,
-								17580
-							]
-						],
-						"settings":
-						{
-							"origPos": 6116.0,
-							"syncScroll": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 6116.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1249,7 +1172,7 @@
 		[
 			[
 				"",
-				"C:\\dev\\tessel\\climate\\climate.sublime-project"
+				"C:\\dev\\nodejs\\climatus\\climatus.sublime-project"
 			]
 		],
 		"width": 475.0
