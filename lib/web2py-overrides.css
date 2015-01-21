@@ -92,6 +92,3 @@ body.web2py-index-page--v1 a.btn {
   -webkit-border-radius: 0px;
   border-radius: 0px;
 }
-body.web2py-index-page--v1 tr td:last-child a {
-  border: none;
-}

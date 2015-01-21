@@ -542,6 +542,14 @@
 				"buffer_size": 4960,
 				"line_ending": "Windows"
 			}
+		},
+		{
+			"file": "src/web2py-overrides.styl",
+			"settings":
+			{
+				"buffer_size": 1674,
+				"line_ending": "Windows"
+			}
 		}
 	],
 	"build_system": "Packages/Stylus/Stylus.sublime-build",
@@ -1012,7 +1020,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -1042,7 +1050,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -1074,7 +1082,7 @@
 						"translation.y": 735.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1104,6 +1112,38 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 276.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/web2py-overrides.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1674,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1208,
+								1208
+							]
+						],
+						"settings":
+						{
+							"origPos": 0.0,
+							"syncScroll": false,
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 642.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
