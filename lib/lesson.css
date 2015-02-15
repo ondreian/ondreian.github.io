@@ -139,11 +139,27 @@ body.lesson--v1 .left-column--v1 .left-column-content--v1 {
   padding: 10px 0px;
 }
 body.lesson--v1 .left-column--v1 h6 {
-  padding: 0px 15px;
-  font-size: 16px;
+  font-weight: 16px;
+  padding: 10px 10px;
+  margin-bottom: 10px;
 }
-body.lesson--v1 .left-column--v1 h6 span[class*="ion"] {
-  margin-right: 7px;
+body.lesson--v1 .left-column--v1 h6.incorrect {
+  color: #bd0500;
+}
+body.lesson--v1 .left-column--v1 h6.summary {
+  color: #7ec135;
+}
+body.lesson--v1 .left-column--v1 h6.information {
+  color: #40699d;
+}
+body.lesson--v1 .left-column--v1 h6.question {
+  color: #099a94;
+}
+body.lesson--v1 .left-column--v1 h6.control-change {
+  color: #32177e;
+}
+body.lesson--v1 .left-column--v1 h6 span:first-child {
+  margin-right: 20px;
 }
 body.lesson--v1 .left-column--v1 ol {
   list-style-type: none;
@@ -248,27 +264,4 @@ body.lesson--v1 .right-column--v1 .right-column-content--v1 .current-part--v1 > 
   padding: 5px 0px 20px 0px;
   display: block;
   margin: 0 auto;
-}
-body.lesson--v1 h6 {
-  font-weight: 16px;
-  padding: 5px;
-  margin-bottom: 10px;
-}
-body.lesson--v1 h6.incorrect {
-  color: #bd0500;
-}
-body.lesson--v1 h6.summary {
-  color: #7ec135;
-}
-body.lesson--v1 h6.information {
-  color: #40699d;
-}
-body.lesson--v1 h6.question {
-  color: #099a94;
-}
-body.lesson--v1 h6.control-change {
-  color: #32177e;
-}
-body.lesson--v1 h6 span:first-child {
-  margin-right: 20px;
 }

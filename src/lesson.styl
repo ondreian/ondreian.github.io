@@ -159,11 +159,28 @@ body.lesson--v1
       padding 10px 0px
 
     h6
-      padding 0px 15px
-      font-size 16px
+      font-weight 16px
+      padding 10px 10px
+      margin-bottom 10px
+  
+      &.incorrect
+        color #bd0500
 
-      span[class*="ion"]
-        margin-right 7px
+      &.summary
+        color #7ec135
+
+      &.information
+        color #40699D
+
+      &.question
+        color #099A94
+
+      &.control-change
+        color #32177e
+
+
+      span:first-child
+        margin-right 20px
 
     ol
       list-style-type none
@@ -272,26 +289,3 @@ body.lesson--v1
           display block
           margin 0 auto
 
-  h6
-    font-weight 16px
-    padding 5px
-    margin-bottom 10px
-
-    &.incorrect
-      color #bd0500
-
-    &.summary
-      color #7ec135
-
-    &.information
-      color #40699D
-
-    &.question
-      color #099A94
-
-    &.control-change
-      color #32177e
-
-
-    span:first-child
-      margin-right 20px
