@@ -16,11 +16,10 @@ body.lesson--v1 .lesson-percent--v1 {
   color: #333;
 }
 body.lesson--v1 form.lesson-holder--v1 {
-  padding-top: 50px;
+  padding-top: 30px;
 }
 body.lesson--v1 .states-container--v1 {
-  padding-bottom: 20px;
-  margin-bottom: 30px;
+  padding-bottom: 10px;
   background: #f7f7f7;
   border: 1px solid #e5e5e5;
   overflow: hidden;
@@ -36,6 +35,8 @@ body.lesson--v1 .column--v1 {
 body.lesson--v1 .column--v1 h4 {
   text-align: center;
   color: #3e3e3e;
+  font-size: 14px;
+  margin: 5px 0px;
 }
 body.lesson--v1 .column--v1:not(:last-child) {
   border-right: 1px solid #e5e5e5;
@@ -44,8 +45,8 @@ body.lesson--v1 .column--v1 .fillrate {
   margin-right: 15px;
 }
 body.lesson--v1 .variable-wrapper--v1 {
-  padding: 7px 5px;
-  font-weight: bold;
+  padding: 1px 5px 2px 5px;
+  font-size: 12px;
   text-transform: lowercase;
 }
 body.lesson--v1 .variable-wrapper--v1 input {
@@ -59,7 +60,7 @@ body.lesson--v1 .variable-wrapper--v1 input {
 }
 body.lesson--v1 .variable-wrapper--v1 input:disabled,
 body.lesson--v1 .variable-wrapper--v1 input[readonly] {
-  border: 1px dashed #c0c0c0;
+  border: 1px solid #c0c0c0;
 }
 body.lesson--v1 .variable-wrapper--v1 input:disabled:focus,
 body.lesson--v1 .variable-wrapper--v1 input[readonly]:focus {
@@ -69,7 +70,7 @@ body.lesson--v1 .variable-wrapper--v1 input[readonly]:focus {
   box-shadow: none;
 }
 body.lesson--v1 .gradient--v1 {
-  width: 409px;
+  width: 410px;
   margin-left: 0px;
   background-color: #f1f1f1;
   background-image: -webkit-linear-gradient(#f1f1f1, #e5e5e5);
@@ -198,7 +199,6 @@ body.lesson--v1 .left-column--v1 .actions {
   padding: 10px 0px;
 }
 body.lesson--v1 .left-column--v1 .actions .btn {
-  text-transform: lowercase;
   font-weight: normal;
   width: 96px;
   background: #7ec135;
@@ -217,8 +217,8 @@ body.lesson--v1 .left-column--v1 .actions .btn:focus {
 }
 body.lesson--v1 .left-column--v1 .actions .btn[disabled] {
   background: #e5e5e5;
-  border: 1px dashed #c0c0c0;
-  color: #888;
+  border: 1px solid #c0c0c0;
+  color: #555;
 }
 body.lesson--v1 .right-column--v1 {
   margin-left: 60px;
@@ -248,4 +248,27 @@ body.lesson--v1 .right-column--v1 .right-column-content--v1 .current-part--v1 > 
   padding: 5px 0px 20px 0px;
   display: block;
   margin: 0 auto;
+}
+body.lesson--v1 h6 {
+  font-weight: 16px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+body.lesson--v1 h6.incorrect {
+  color: #bd0500;
+}
+body.lesson--v1 h6.summary {
+  color: #7ec135;
+}
+body.lesson--v1 h6.information {
+  color: #40699d;
+}
+body.lesson--v1 h6.question {
+  color: #099a94;
+}
+body.lesson--v1 h6.control-change {
+  color: #32177e;
+}
+body.lesson--v1 h6 span:first-child {
+  margin-right: 20px;
 }

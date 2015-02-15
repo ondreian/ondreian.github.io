@@ -17,6 +17,7 @@ body.web2py-overrides--v1 label {
 }
 body.web2py-overrides--v1 input {
   min-width: 200px;
+  margin: 20px 0px 10px 0px;
 }
 body.web2py-overrides--v1 input[type='submit'] {
   background: #7ec135;
@@ -33,6 +34,27 @@ body.web2py-overrides--v1 input[type='submit'] {
 }
 body.web2py-overrides--v1 input[type='submit']:focus {
   outline: none;
+}
+body.web2py-overrides--v1 a {
+  border: 2px;
+  font-weight: bold;
+  text-transform: lowercase;
+  width: 212px;
+  padding: 10px 20px;
+  text-shadow: none;
+  color: #fff;
+}
+body.web2py-overrides--v1 a:first-child {
+  background: #7ec135;
+  border-color: #7ec135;
+}
+body.web2py-overrides--v1 a:nth-child(2) {
+  background: #099a94;
+  border-color: #08827d;
+}
+body.web2py-overrides--v1 a:nth-child(3) {
+  background: #32177e;
+  border-color: #4823b0;
 }
 .web2py_grid tr:hover {
   background: none;

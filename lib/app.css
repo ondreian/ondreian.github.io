@@ -51,7 +51,7 @@ img.logo--v1 {
 }
 .btn {
   border-radius: 0px;
-  text-transform: lowercase;
+  text-transform: capitalize;
   padding: 5px 20px;
   font-weight: bold;
 }
