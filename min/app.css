@@ -104,7 +104,13 @@ img.logo--v1 {
 .green {
   color: #40d049;
 }
+.btn.green {
+  color: #40d049;
+}
 .red {
+  color: #bd0500;
+}
+.btn.red {
   color: #bd0500;
 }
 
