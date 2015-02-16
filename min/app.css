@@ -375,6 +375,8 @@ body.lesson--v1 form > .row > .span8 .btn {
   text-shadow: none;
   color: #fff;
   margin-right: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
 }
 body.lesson--v1 form > .row > .span8 .btn:not(:last-child) {
   margin-right: 5px;
@@ -525,8 +527,6 @@ body.web2py-index-page--v1 tr.w2p_odd {
   background: #f5f5f5;
 }
 body.web2py-index-page--v1 a.btn {
-  background: #e5e5e5;
-  border: 1px solid #c0c0c0;
   text-shadow: none;
   -webkit-border-radius: 0px;
   border-radius: 0px;

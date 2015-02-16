@@ -181,6 +181,8 @@ body.lesson--v1 form > .row > .span8 .btn {
   text-shadow: none;
   color: #fff;
   margin-right: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
 }
 body.lesson--v1 form > .row > .span8 .btn:not(:last-child) {
   margin-right: 5px;
