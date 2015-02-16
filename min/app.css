@@ -306,6 +306,12 @@ body.lesson--v1 .errors-column--v1 span.icon {
   font-size: 20px;
   text-align: center;
 }
+body.lesson--v1 .wiki-content {
+  padding: 5px 10px;
+  border: 1px solid #e5e5e5;
+  background: #f7f7f7;
+  margin-bottom: 5px;
+}
 body.lesson--v1 form > .row > .span8 {
   margin-left: 0px;
 }
