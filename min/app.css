@@ -419,6 +419,8 @@ body.lesson--v1 form > .row > .span4 {
 }
 body.lesson--v1 form > .row > .span4 > h3 {
   font-size: 18px;
+  line-height: 20px;
+  padding: 5px 10px;
 }
 body.lesson--v1 form > .row > .span4 > p {
   padding: 10px;
