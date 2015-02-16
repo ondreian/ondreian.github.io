@@ -82,10 +82,17 @@
 </head>
 
 <body class="lesson--v1">
+
+
+  <!-- following is to tag pages for auto testing with selenium -->
+  
+    
+  
+    <div style:'display: none' id=lesson1-4> </div>
   
   <!-- Navbar ================================================== -->
   <div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="flash" style="display: none;"></div>
+    <!-- <div class="flash"></div> -->
     <div class="navbar-inner">
       <div class="container">
         <!-- the next tag is necessary for bootstrap menus, do not remove -->
@@ -94,17 +101,17 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-	<a class="brand" href="https://cpp.pythonanywhere.com/skillbuilder/default/index">
-    <!-- <b>Paulson Training Programs, Inc.</b>™&nbsp; -->
-
-     SkillBuilder Lesson 1: Understanding the Injection Molding Sequence
-
-  </a>
-        <ul id="navbar" class="nav pull-right"><li class="dropdown"><a href="https://cpp.pythonanywhere.com/skillbuilder/default/mysession/23#" rel="nofollow" class="dropdown-toggle" data-toggle="dropdown">Welcome student1</a><ul class="dropdown-menu"><li><a href="https://cpp.pythonanywhere.com/skillbuilder/default/user/profile?_next=/skillbuilder/default/mysession/23" rel="nofollow"><i class="icon icon-user glyphicon glyphicon-user"></i> Profile</a></li><li><a href="https://cpp.pythonanywhere.com/skillbuilder/default/user/change_password?_next=/skillbuilder/default/mysession/23" rel="nofollow"><i class="icon icon-lock glyphicon glyphicon-lock"></i> Password</a></li><li class="divider"></li><li><a href="https://cpp.pythonanywhere.com/skillbuilder/default/user/logout?_next=/skillbuilder/default/index" rel="nofollow"><i class="icon icon-off glyphicon glyphicon-off"></i> Logout</a></li></ul></li></ul>
+    
+      
+    
+      
+    
+  <div class="brand"><b>Lesson 01: 40% complete</b></div>
+        <ul id="navbar" class="nav pull-right"><li class="dropdown"><a href="#" rel="nofollow">Welcome student1</a><ul class="dropdown-menu"><li><a href="/skillbuilder/default/user/change_password?_next=/skillbuilder/default/mysession/23" rel="nofollow"><i class="icon icon-lock glyphicon glyphicon-lock"></i> Password</a></li><li class="divider"></li><li><a href="/skillbuilder/default/user/logout?_next=/skillbuilder/default/index" rel="nofollow"><i class="icon icon-off glyphicon glyphicon-off"></i> Logout</a></li></ul></li></ul>
         <div class="nav-collapse">
           
           
-          <ul class="nav"><li class="web2py-menu-first"><a href="https://cpp.pythonanywhere.com/skillbuilder/default/index">Home</a></li></ul>
+          <ul class="nav"><li class="web2py-menu-first"><a href="/skillbuilder/default/index"><b>Home</b></a></li><li class="web2py-menu-last"><a href="/skillbuilder/default/sk_help"><b>Help</b></a></li></ul>
           
         </div><!--/.nav-collapse -->
       </div>
@@ -113,125 +120,201 @@
 
   <div class="container">
     <!-- Masthead ================================================== -->
-    <!--
-    TODO: remove this
-    <br>
-    -->
+    <br/>
     <!--
     <header class="mastheader row" id="header">
       
-        <div class="span12">
-            <div class="page-header">
-                <h1>
-                    SkillBuilder
-                    <small></small>
-                </h1>
-            </div>
-        </div>
-	
     </header>
     -->
 
     <section id="main" class="main row">
+        <!-- cpp added 1/14/2015 move logo image to top for login -->
+        
 
+        
 
         <div class="span12">
             
             
-<form action="https://cpp.pythonanywhere.com/skillbuilder/default/mysession/23#" class='lesson-holder--v1' enctype="multipart/form-data" method="post">
+<form  action="#" enctype="multipart/form-data" method="post">
 <div class="row">
     <div class="span12">
-
-    <!--
-
-    <div class="lesson-header--v1">
-     
-      <h6 class='lesson-objective--v1'>Study the molding sequence for this machine to learn when each timer operates</h6>
-    </div>
-
-    -->
-
-
-
-<div class="row states-container--v1">
-
-	
-  <div class="span2 column--v1">
-        <h4>Temperatures</h4>
-
-        <p style="display : None"><select class="generic-widget" id="mysession_lesson" name="lesson"><option value=""></option><option selected="selected" value="1">lesson 01</option><option value="2">lesson 02</option><option value="3">lesson 03</option><option value="4">lesson 04</option><option value="5">lesson 05</option><option value="6">lesson 06</option><option value="7">lesson 07</option><option value="8">lesson 08</option><option value="9">lesson 09</option><option value="10">lesson 10</option><option value="11">lesson 11</option><option value="12">lesson 12</option><option value="13">lesson 13</option><option value="14">lesson 14</option><option value="15">lesson 15</option></select></p>
-        <p style="display : None"><input class="string" id="mysession_screen" name="screen" type="text" value="lesson1-1"></p>
-        <p style="display : None"><input class="integer" id="mysession_units" name="units" type="text" value="0"></p>
-        <div class="variable-wrapper--v1">
-        Front Zone:
-        <input class="double" id="mysession_Front_Zone_Temp" name="Front_Zone_Temp" readonly="readonly" type="text" value="430.00">
-        </div><div class="variable-wrapper--v1">
-        Middle Zone:
-        <input class="double" id="mysession_Middle_Zone_Temp" name="Middle_Zone_Temp" readonly="readonly" type="text" value="430.00">
-        </div><div class="variable-wrapper--v1">
-        Rear Zone:
-        <input class="double" id="mysession_Rear_Zone_Temp" name="Rear_Zone_Temp" readonly="readonly" type="text" value="400.00">
-        </div><div class="variable-wrapper--v1">
-        Mold Core:
-        <input class="double" id="mysession_Mold_Core_Temp" name="Mold_Core_Temp" readonly="readonly" type="text" value="70.00">
-        </div><div class="variable-wrapper--v1">
-        Mold Cavity:
-        <input class="double" id="mysession_Mold_Cavity_Temp" name="Mold_Cavity_Temp" readonly="readonly" type="text" value="70.00">
-        </div>
-    </div>
-    
-    <div class="span2 column--v1">
-      <h4>Timers</h4>
-
-      <div class="variable-wrapper--v1">
-        Inj. Limit Timer:
-        <input class="double" id="mysession_Inj_Limit_Timer" name="Inj_Limit_Timer" readonly="readonly" type="text" value="5.00">
-      </div>
-        <div class="variable-wrapper--v1">
-        Holding Timer:
-        <input class="double" id="mysession_Holding_Timer" name="Holding_Timer" readonly="readonly" type="text" value="5.00">
-        </div><div class="variable-wrapper--v1">
-        Mold Closed Timer:
-        <input class="double" id="mysession_Mold_Closed_Timer" name="Mold_Closed_Timer" readonly="readonly" type="text" value="25.00">
-        </div><div class="variable-wrapper--v1">
-        Mold Open Timer:
-        <input class="double" id="mysession_Mold_Open_Timer" name="Mold_Open_Timer" readonly="readonly" type="text" value="3.00">
-        </div>
-    </div>
-    
-    <div class="span2 column--v1">
-      <h4>Pressures/Misc</h4>
-
-      <div class="variable-wrapper--v1">
-        Max. Inj. Pressure:
-        <input class="double" id="mysession_Max_Inj_Press" name="Max_Inj_Press" readonly="readonly" type="text" value="20000.00">
-      </div>
-        <div class="variable-wrapper--v1">
-        Holding Pressure:
-        <input class="double" id="mysession_Holding_Press" name="Holding_Press" readonly="readonly" type="text" value="9000.00">
-        </div><div class="variable-wrapper--v1">
-        Back Pressure:
-        <input class="double" id="mysession_Back_Press" name="Back_Press" readonly="readonly" type="text" value="1300.00">
-        </div><div class="variable-wrapper--v1">
-        Clamp Force:
-        <input class="double" id="mysession_Clamp_Force" name="Clamp_Force" readonly="readonly" type="text" value="95.00">
-        </div><div class="variable-wrapper--v1">
-        Screw RPM:
-        <input class="double" id="mysession_Screw_RPM" name="Screw_RPM" type="text" value="150.00">
-        </div><div class="variable-wrapper--v1">
-        Screw Back:
-        <input class="double" id="mysession_Screw_Back" name="Screw_Back" readonly="readonly" type="text" value="3.20">
-        </div>
-    </div>
-
-    <div class="span2 column--v1">
+        
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+<script language="javascript"><!--
+$('.mytooltip').tooltip();
+//--></script>
+<div class="row states-container--v1">
+    <div class="span2">
+        <h4>Temperatures</h4>
+        <p style="display : None"><select class="generic-widget" id="mysession_lesson" name="lesson"><option value=""></option><option selected="selected" value="1">lesson 01</option><option value="2">lesson 02</option><option value="3">lesson 03</option><option value="4">lesson 04</option><option value="5">lesson 05</option><option value="6">lesson 06</option><option value="7">lesson 07</option><option value="8">lesson 08</option><option value="9">lesson 09</option><option value="10">lesson 10</option><option value="11">lesson 11</option><option value="12">lesson 12</option><option value="13">lesson 13</option><option value="14">lesson 14</option><option value="15">lesson 15</option></select></p>
+        <p style="display : None"><input class="string" id="mysession_screen" name="screen" type="text" value="lesson1-4" /></p>
+        <p style="display : None"><input class="integer" id="mysession_units" name="units" readonly="readonly" type="text" value="0" /></p>
+        <p style="display : None"><input class="string" id="mysession_Session_Name" name="Session_Name" type="text" value="My Session" /></p>
+  <div class = "variable-wrapper--v1">
+        Front Zone (&deg;F):
+        
+    
+        <input class="integer mytooltip" id="mysession_Front_Zone_Temp" name="Front_Zone_Temp" readonly="readonly" title="The barrel temperature setting for the front zone." type="text" value="430" />
+  </div>
+        
+  <div class = "variable-wrapper--v1">
+        Middle Zone (&deg;F):
+        
+    
+        <input class="integer mytooltip" id="mysession_Middle_Zone_Temp" name="Middle_Zone_Temp" readonly="readonly" title="The barrel temperature setting for the middle zone." type="text" value="430" />
+  </div>
+        
+  <div class = "variable-wrapper--v1">
+        Rear Zone (&deg;F):
+        
+    
+        <input class="integer mytooltip" id="mysession_Rear_Zone_Temp" name="Rear_Zone_Temp" readonly="readonly" title="The barrel temperature setting for the rear zone." type="text" value="400" />
+  </div>
+        
+  <div class = "variable-wrapper--v1">
+        Mold Core (&deg;F):
+        
+    
+        <input class="integer mytooltip" id="mysession_Mold_Core_Temp" name="Mold_Core_Temp" readonly="readonly" title="The mold temperature setting for the rear (moveable) half of the mold." type="text" value="70" />
+  </div>
+        
+  <div class = "variable-wrapper--v1">
+        Mold Cavity (&deg;F):
+        
+    
+        <input class="integer mytooltip" id="mysession_Mold_Cavity_Temp" name="Mold_Cavity_Temp" readonly="readonly" title="The mold temperature setting for the front (stationary) half of the mold." type="text" value="70" />
+  </div>
+    </div>
+    <div class="span2">
+        <h4>Timers</h4>
+  <div class = "variable-wrapper--v1">
+        Inj. Limit Timer (sec.):
+        
+    
+        <input class="double mytooltip" id="mysession_Inj_Limit_Timer" name="Inj_Limit_Timer" readonly="readonly" title="The number of seconds the injection pressure is maintained if the vpt setpoint is NOT reached." type="text" value="5.00" />
+  </div>
+        
+  <div class = "variable-wrapper--v1">
+        Holding Timer (sec.):
+        
+    
+        <input class="double mytooltip" id="mysession_Holding_Timer" name="Holding_Timer" readonly="readonly" title="The number of seconds that holding pressure is maintained after the vpt setpoint is reached." type="text" value="5.00" />
+  </div>
+        
+  <div class = "variable-wrapper--v1">
+        Mold Closed Timer (sec.):
+        
+    
+        <input class="double mytooltip" id="mysession_Mold_Closed_Timer" name="Mold_Closed_Timer" readonly="readonly" title="The number of seconds the mold is closed during each cycle." type="text" value="25.00" />
+  </div>
+        
+  <div class = "variable-wrapper--v1">
+        Mold Open Timer (sec.):
+        
+    
+        <input class="double mytooltip" id="mysession_Mold_Open_Timer" name="Mold_Open_Timer" readonly="readonly" title="The number of seconds the mold is open each cycle." type="text" value="3.00" />
+  </div>
+    </div>
+    <div class="span2">
+        <h4>Pressures/Misc</h4>
+  <div class = "variable-wrapper--v1">
+        Max. Inj. Pressure (psi):
+        
+    
+        <input class="integer mytooltip" id="mysession_Max_Inj_Press" name="Max_Inj_Press" readonly="readonly" title="The plastic injection pressure setting available during mold filling (before vpt setpoint is reached). To determine hydraulic pressure, divide by 10." type="text" value="20000" />
+  </div>
+        
+  <div class = "variable-wrapper--v1">
+        Holding Pressure (psi):
+        
+    
+        <input class="integer mytooltip" id="mysession_Holding_Press" name="Holding_Press" readonly="readonly" title="The second stage plastic injection pressure setting after the vpt setpoint is reached. To determine hydraulic pressure, divide by 10." type="text" value="9000" />
+  </div>
+        
+  <div class = "variable-wrapper--v1">
+        Back Pressure (psi):
+        
+    
+        <input class="integer mytooltip" id="mysession_Back_Press" name="Back_Press" readonly="readonly" title="The plastic pressure in the barrel during screw rotation. To determine hydraulic pressure, divide by 10." type="text" value="1300" />
+  </div>
+        
+  <div class = "variable-wrapper--v1">
+        Clamp Force (tons):
+        
+    
+        <input class="integer mytooltip" id="mysession_Clamp_Force" name="Clamp_Force" readonly="readonly" title="The force applied to keep the mold closed during the molding process." type="text" value="95" />
+  </div>
+        
+  <div class = "variable-wrapper--v1">
+        Screw RPM (rpm):
+        
+    
+        <input class="integer mytooltip" id="mysession_Screw_RPM" name="Screw_RPM" readonly="readonly" title="The screw rotation speed during plastication." type="text" value="150" />
+  </div>
+        
+  <div class = "variable-wrapper--v1">
+        Screw Back (in.):
+        
+    
+        <input class="double mytooltip" id="mysession_Screw_Back" name="Screw_Back" readonly="readonly" title="The distance at which screw rotation is stopped." type="text" value="3.20" />
+  </div>
+    </div>
+    <div class="span2">
         <h4>Fill Rates</h4>
        <!-- Fill Rate 1 (&#37;):-->
         
         
     
-        <div class=" mytooltip fillrate" id="slider_wrapper" style="width: 15px; text-align:center; display: inline-block" title="The five fill rate controls each control the fill rate for 20% of the injection stroke."><span id="mysession_Fill_Rate_1__label" style="display: inline-block">1</span><div id="mysession_Fill_Rate_1__slider" style="display: inline-block; float: left" class="ui-slider ui-widget ui-widget-content ui-corner-all ui-state-disabled ui-slider-disabled ui-slider-vertical"><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="bottom: 60%;"></span></div><span class="sk_fr" id="mysession_Fill_Rate_1__value" style="float: left">60</span><input class="integer" id="mysession_Fill_Rate_1" name="Fill_Rate_1" readonly="readonly" type="text" value="60" style="display: none;"><script><!--
+        <div class=" mytooltip fillrate" id="slider_wrapper" style="width: 15px; text-align:center; display: inline-block" title="The five fill rate controls each control the fill rate for 20% of the injection stroke."><span id="mysession_Fill_Rate_1__label" style="display: inline-block"></span><div id="mysession_Fill_Rate_1__slider" style="display: inline-block; float: left"></div><span class="sk_fr" id="mysession_Fill_Rate_1__value" style="float: left"><input id="mysession_Fill_Rate_1" style="display: none;" type="text" /></span><input class="integer" id="mysession_Fill_Rate_1" name="Fill_Rate_1" readonly="readonly" type="text" value="60" /><script><!--
 
         jQuery('#mysession_Fill_Rate_1__value').text('60');
         jQuery('#mysession_Fill_Rate_1__label').text('1');
@@ -248,11 +331,11 @@
         });
         
 //--></script></div>
-        <!--<br>-->
+        <!---->
         <!--Fill Rate 2 (&#37;):-->
         
     
-        <div class=" mytooltip fillrate" id="slider_wrapper" style="width: 15px; text-align:center; display: inline-block" title="The five fill rate controls each control the fill rate for 20% of the injection stroke."><span id="mysession_Fill_Rate_2__label" style="display: inline-block">2</span><div id="mysession_Fill_Rate_2__slider" style="display: inline-block; float: left" class="ui-slider ui-widget ui-widget-content ui-corner-all ui-state-disabled ui-slider-disabled ui-slider-vertical"><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="bottom: 60%;"></span></div><span class="sk_fr" id="mysession_Fill_Rate_2__value" style="float: left">60</span><input class="integer" id="mysession_Fill_Rate_2" name="Fill_Rate_2" readonly="readonly" type="text" value="60" style="display: none;"><script><!--
+        <div class=" mytooltip fillrate" id="slider_wrapper" style="width: 15px; text-align:center; display: inline-block" title="The five fill rate controls each control the fill rate for 20% of the injection stroke."><span id="mysession_Fill_Rate_2__label" style="display: inline-block"></span><div id="mysession_Fill_Rate_2__slider" style="display: inline-block; float: left"></div><span class="sk_fr" id="mysession_Fill_Rate_2__value" style="float: left"><input id="mysession_Fill_Rate_2" style="display: none;" type="text" /></span><input class="integer" id="mysession_Fill_Rate_2" name="Fill_Rate_2" readonly="readonly" type="text" value="60" /><script><!--
 
         jQuery('#mysession_Fill_Rate_2__value').text('60');
         jQuery('#mysession_Fill_Rate_2__label').text('2');
@@ -269,11 +352,11 @@
         });
         
 //--></script></div>
-        <!--<br>-->
+        <!---->
         <!-- Fill Rate 3 (&#37;):-->
         
     
-        <div class=" mytooltip fillrate" id="slider_wrapper" style="width: 15px; text-align:center; display: inline-block" title="The five fill rate controls each control the fill rate for 20% of the injection stroke."><span id="mysession_Fill_Rate_3__label" style="display: inline-block">3</span><div id="mysession_Fill_Rate_3__slider" style="display: inline-block; float: left" class="ui-slider ui-widget ui-widget-content ui-corner-all ui-state-disabled ui-slider-disabled ui-slider-vertical"><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="bottom: 60%;"></span></div><span class="sk_fr" id="mysession_Fill_Rate_3__value" style="float: left">60</span><input class="integer" id="mysession_Fill_Rate_3" name="Fill_Rate_3" readonly="readonly" type="text" value="60" style="display: none;"><script><!--
+        <div class=" mytooltip fillrate" id="slider_wrapper" style="width: 15px; text-align:center; display: inline-block" title="The five fill rate controls each control the fill rate for 20% of the injection stroke."><span id="mysession_Fill_Rate_3__label" style="display: inline-block"></span><div id="mysession_Fill_Rate_3__slider" style="display: inline-block; float: left"></div><span class="sk_fr" id="mysession_Fill_Rate_3__value" style="float: left"><input id="mysession_Fill_Rate_3" style="display: none;" type="text" /></span><input class="integer" id="mysession_Fill_Rate_3" name="Fill_Rate_3" readonly="readonly" type="text" value="60" /><script><!--
 
         jQuery('#mysession_Fill_Rate_3__value').text('60');
         jQuery('#mysession_Fill_Rate_3__label').text('3');
@@ -290,11 +373,11 @@
         });
         
 //--></script></div>
-        <!--<br>-->
+        <!---->
         <!-- Fill Rate 4 (&#37;):-->
         
     
-        <div class=" mytooltip fillrate" id="slider_wrapper" style="width: 15px; text-align:center; display: inline-block" title="The five fill rate controls each control the fill rate for 20% of the injection stroke."><span id="mysession_Fill_Rate_4__label" style="display: inline-block">4</span><div id="mysession_Fill_Rate_4__slider" style="display: inline-block; float: left" class="ui-slider ui-widget ui-widget-content ui-corner-all ui-state-disabled ui-slider-disabled ui-slider-vertical"><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="bottom: 60%;"></span></div><span class="sk_fr" id="mysession_Fill_Rate_4__value" style="float: left">60</span><input class="integer" id="mysession_Fill_Rate_4" name="Fill_Rate_4" readonly="readonly" type="text" value="60" style="display: none;"><script><!--
+        <div class=" mytooltip fillrate" id="slider_wrapper" style="width: 15px; text-align:center; display: inline-block" title="The five fill rate controls each control the fill rate for 20% of the injection stroke."><span id="mysession_Fill_Rate_4__label" style="display: inline-block"></span><div id="mysession_Fill_Rate_4__slider" style="display: inline-block; float: left"></div><span class="sk_fr" id="mysession_Fill_Rate_4__value" style="float: left"><input id="mysession_Fill_Rate_4" style="display: none;" type="text" /></span><input class="integer" id="mysession_Fill_Rate_4" name="Fill_Rate_4" readonly="readonly" type="text" value="60" /><script><!--
 
         jQuery('#mysession_Fill_Rate_4__value').text('60');
         jQuery('#mysession_Fill_Rate_4__label').text('4');
@@ -311,11 +394,11 @@
         });
         
 //--></script></div>
-        <!--<br>-->
+        <!---->
         <!-- Fill Rate 5 (&#37;):-->
         
     
-        <div class=" mytooltip fillrate fillrate5" id="slider_wrapper" style="width: 15px; text-align:center; display: inline-block" title="The five fill rate controls each control the fill rate for 20% of the injection stroke."><span id="mysession_Fill_Rate_5__label" style="display: inline-block">5</span><div id="mysession_Fill_Rate_5__slider" style="display: inline-block; float: left" class="ui-slider ui-widget ui-widget-content ui-corner-all ui-state-disabled ui-slider-disabled ui-slider-vertical"><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="bottom: 60%;"></span></div><span class="sk_fr" id="mysession_Fill_Rate_5__value" style="float: left">60</span><input class="integer" id="mysession_Fill_Rate_5" name="Fill_Rate_5" readonly="readonly" type="text" value="60" style="display: none;"><script><!--
+        <div class=" mytooltip fillrate fillrate5" id="slider_wrapper" style="width: 15px; text-align:center; display: inline-block" title="The five fill rate controls each control the fill rate for 20% of the injection stroke."><span id="mysession_Fill_Rate_5__label" style="display: inline-block"></span><div id="mysession_Fill_Rate_5__slider" style="display: inline-block; float: left"></div><span class="sk_fr" id="mysession_Fill_Rate_5__value" style="float: left"><input id="mysession_Fill_Rate_5" style="display: none;" type="text" /></span><input class="integer" id="mysession_Fill_Rate_5" name="Fill_Rate_5" readonly="readonly" type="text" value="60" /><script><!--
 
         jQuery('#mysession_Fill_Rate_5__value').text('60');
         jQuery('#mysession_Fill_Rate_5__label').text('5');
@@ -333,177 +416,114 @@
         
 //--></script></div>
         
-        <div class="variable-wrapper--v1">
-        VPT Setpoint (%):
+  <div class = "variable-wrapper--v1">
+        VPT Setpoint (&#37;):
         
     
-        <input class="double mytooltip" id="mysession_VPT_Setpoint" name="VPT_Setpoint" readonly="readonly" title="The velocity to pressure transfer (VPT) setpoint is the point, during mold filling, where the machine switches from measuring screw velocity to plastic pressure. This assures that the mold is filled but not overfilled." type="text" value="95.00">
-        </div>
-    
+        <input class="double mytooltip" id="mysession_VPT_Setpoint" name="VPT_Setpoint" readonly="readonly" title="The velocity to pressure transfer (VPT) setpoint is the point, during mold filling, where the machine switches from measuring screw velocity to plastic pressure. This assures that the mold is filled but not overfilled." type="text" value="95.00" />
+  </div>
     </div>
-
-    <div class="span4 gradient--v1">
-      <div class="span2 column--v1 outputs-column--v1">
-        <h4>Outputs</h4>
-
-        <div class="variable-wrapper--v1">
-          Fill Time:
-          <input class="double" id="mysession_Fill_Time" name="Fill_Time" readonly="readonly" type="text" value="0.816">
-        </div>
-          <div class="variable-wrapper--v1">
-          Cycle Time:
-          <input class="double" id="mysession_Cycle_Time" name="Cycle_Time" readonly="readonly" type="text" value="28.82">
-          </div><div class="variable-wrapper--v1">
-          Melt Temp:
-          <input class="double" id="mysession_Melt_Temp" name="Melt_Temp" readonly="readonly" type="text" value="432.0">
-          </div><div class="variable-wrapper--v1">
-          Cushion Size:
-          <input class="double" id="mysession_Cushion_Size" name="Cushion_Size" readonly="readonly" type="text" value="0.21">
-          </div><div class="variable-wrapper--v1">
-          Part Weight:
-          <input class="double" id="mysession_Part_Weight" name="Part_Weight" readonly="readonly" type="text" value="3.205">
-          </div><div class="variable-wrapper--v1">
-          Part Length:
-          <input class="double" id="mysession_Part_Length" name="Part_Length" readonly="readonly" type="text" value="6.499">
-          </div>
+    <div class="span4 gradient-v1">
+        <div class="span2 outputs-column--v1">
+            <h4>Outputs</h4>
+      <div class = "variable-wrapper--v1">
+            Fill Time (sec.):
+            <input class="double mytooltip" id="mysession_Fill_Time" name="Fill_Time" readonly="readonly" title="The time spent filling the mold." type="text" value="0.816" />
       </div>
-
-      <div class="span2 column--v1 errors-column--v1">
-        <h4>Alarms</h4>
-
-        <ul class="errors-wrapper--v1">
-          <li class='ok'>
-            <span class="error-name">High Melt Temp</span>
-            <span class="icon">
-              
-              <span class="ion-lightbulb"></span>
-            </span>
-          </li>
-
-          <li class='ok'>
-            <span class="error-name">Low Melt Temp</span>
-            <span class="icon">
-              
-              <span class="ion-lightbulb"></span>
-            </span>
-          </li>
-
-          <li class='warn'>
-            <span class="error-name">Low Max Inj Press</span>
-            <span class="icon">
-              
-              <span class="ion-lightbulb"></span>
-            </span>
-          </li>
-
-          <li class='error'>
-            <span class="error-name">Inj Limit Timer</span>
-            <span class="icon">
-              
-              <span class="ion-lightbulb"></span>
-            </span>
-          </li>
-
-          <li class='warn'>
-            <span class="error-name">Screw Back Press</span>
-            <span class="icon">
-              
-              <span class="ion-lightbulb"></span>
-            </span>
-          </li>
-
-          <li class='ok'>
-            <span class="error-name">Screw Back Time</span>
-            <span class="icon">
-              
-              <span class="ion-lightbulb"></span>
-            </span>
-          </li>
-
-          <li class='error'>
-            <span class="error-name">No Cushion</span>
-            <span class="icon">
-              
-              <span class="ion-lightbulb"></span>
-            </span>
-          </li>
-
-        </ul>
-
-        <!--  
-          <table><tbody><tr><td>High Melt Temp</td><td><img src="./lesson_files/green-dot.jpg"></td></tr><tr><td>Low Melt Temp</td><td><img src="./lesson_files/green-dot.jpg"></td></tr><tr><td>Low Max Inj Press</td><td><img src="./lesson_files/green-dot.jpg"></td></tr><tr><td>Inj Limit Timer</td><td><img src="./lesson_files/green-dot.jpg"></td></tr><tr><td>Screw Back Press</td><td><img src="./lesson_files/green-dot.jpg"></td></tr><tr><td>Screw Back Time</td><td><img src="./lesson_files/green-dot.jpg"></td></tr><tr><td>No Cushion</td><td><img src="./lesson_files/green-dot.jpg"></td></tr></tbody></table>
-        -->
-
-      </div> 
-    </div>               
+            
+      <div class = "variable-wrapper--v1">
+            Cycle Time (sec.):
+            <input class="double mytooltip" id="mysession_Cycle_Time" name="Cycle_Time" readonly="readonly" title="The total time spent molding the part." type="text" value="28.82" />
+      </div>
+            
+      <div class = "variable-wrapper--v1">
+            Melt Temp (&deg;F):
+            <input class="double mytooltip" id="mysession_Melt_Temp" name="Melt_Temp" readonly="readonly" title="The temperature of the plastic entering the mold." type="text" value="432.0" />
+      </div>
+            
+      <div class = "variable-wrapper--v1">
+            Cushion Size (in.):
+            <input class="double mytooltip" id="mysession_Cushion_Size" name="Cushion_Size" readonly="readonly" title="The plastic in front of the screw after injection. It is necessary to transfer pressure into the mold." type="text" value="0.21" />
+      </div>
+            
+      <div class = "variable-wrapper--v1">
+            Part Weight (oz.):
+            <input class="double mytooltip" id="mysession_Part_Weight" name="Part_Weight" readonly="readonly" title="The weight of the molded part." type="text" value="3.205" />
+      </div>
+            
+      <div class = "variable-wrapper--v1">
+            Part Length (in.):
+            <input class="double mytooltip" id="mysession_Part_Length" name="Part_Length" readonly="readonly" title="The length of the molded part." type="text" value="6.499" />
+      </div>
+        </div>
+        <div class="span2 column--v1 errors-column--v1">
+            <h4>Alarms</h4>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <table><tr class="mytooltip" title="This alarm indicates the melt temperature is too high for this plastic. Degradation can occur."><td><span class="error-name">High Melt Temp</span></td><td><span class="ion-lightbulb green"></span></td></tr><tr class="mytooltip" title="This alarm indicates the melt temperature is too low for this plastic. High torque could damage the screw."><td><span class="error-name">Low Melt Temp</span></td><td><span class="ion-lightbulb green"></span></td></tr><tr class="mytooltip" title="This alarm indicates the maximum injection pressure is not high enough to maintain your fill rate settings."><td><span class="error-name">Low Max Inj Press</span></td><td><span class="ion-lightbulb green"></span></td></tr><tr class="mytooltip" title="This alarm indicates the injection limit time ended before the vpt setpoint was reached."><td><span class="error-name">Inj Limit Timer</span></td><td><span class="ion-lightbulb green"></span></td></tr><tr class="mytooltip" title="This alarm indicates the screw cannot return against the back pressure you have set. Degradation can occur."><td><span class="error-name">Screw Back Press</span></td><td><span class="ion-lightbulb green"></span></td></tr><tr class="mytooltip" title="Increase the screw rpm, increase the mold closed time, or reduce the holding time."><td><span class="error-name">Screw Back Time</span></td><td><span class="ion-lightbulb green"></span></td></tr><tr class="mytooltip" title="This alarm indicates screw rotation has not ended when the mold opens."><td><span class="error-name">No Cushion</span></td><td><span class="ion-lightbulb green"></span></td></tr></table>
+        </div>
+    </div>
 </div>
 
     </div>
 </div>
-<!-- <hr> -->
+
+<!--  -->
 <div class="row">
-	<div class="span8 left-column--v1 image">
-    <div class="left-column-content--v1">
-      
-      <h6 class='information'>
-        <span class="ion-information-circled"></span>
-        <span>Information</span>
-      </h6>
-
-      <!--
-
-      <div class="flash--v1">
-        <span>
-          The XXX was not correctly adjusted to 99.99
-        </span>
-      </div>
-
-      -->
-
-      
-      <img src="./lesson_files/Image1.gif"> 
-
-      <audio autoplay="autoplay" controls="controls" src="/skillbuilder/static/L1/SCRN1.mp3"></audio>
-     
-
-      <!-- </p> -->
-
-      <div class='actions'>
+  <div class="span8">
         
-  		  <input type="submit" value="Back" class="btn btn-success" name="screenprev" disabled="">
-          
-  			<input type="submit" value="Cycle" class="btn btn-success" name="cycle" disabled="">
-          
-        <input type="submit" value="Forward" class="btn btn-success" name="screennext">
-
-      </div>
-		        
-    </div>
+        <h6 class="information"><span class="ion-information-circled"></span><span>Information</span></h6>
         
-  </div>
-	<div class="span4 right-column--v1">
-    <div class="right-column-content--v1">
-          
-      <p>no current problems</p>
+        
+        
+        <p><figure><img src="https://cpp.pythonanywhere.com/skillbuilder/static/L1/fillrate.gif" /><figcaption>Fill Rate Control</figcaption></figure> 
+        <img src="https://cpp.pythonanywhere.com/skillbuilder/static/L1/Image2.gif" /> <br /> <br /> <audio autoplay="autoplay" controls="controls" src="/skillbuilder/static/L1/SCRN3.mp3"></audio></p><div class="w2p_wiki_tags"></div>
+        
+        <input type="submit" value="< Back" class="btn btn-success btn-large" name="screenprev" />
+        
 
-      <div class="w2p_wiki_tags"></div>
+        
+      <input type="submit" value="Cycle" class="btn btn-success" name="cycle" disabled />
+        
+        
+          <input type="submit" value="Forward >" class="btn btn-success btn-large" name="screennext" />
+            
 
-      <div class="current-part--v1">
-        <h4>Current Part</h4>
-        <img src="./lesson_files/normal.jpg">
-      </div>
-          
-
+        
     </div>
- 
-  </div>
+  <div class="span4">
+        <!--
+        <div class="row">
+            <div class="span3">
+                
+                <h3>Lesson Status</h3>
+                <p>40% complete</p>
+                
+            </div>
+            <div class="span3">
+                <h3>List of Problems</h3><p>No problems.</p>
+            </div>
+        </div>
+        -->
+        <h3>List of Problems</h3><p>No problems.</p>
+        
+        <h3>Current Part</h3><p><br /> <img src="https://cpp.pythonanywhere.com/skillbuilder/static/images/normal.jpg" /></p><div class="w2p_wiki_tags"></div>
+    </div>
 </div>
 
-        
-    </section><!--/main-->
 
-    <!-- Footer ================================================== -->
-    <div class="row">
+</section>
+
+  <div class="row">
         <footer class="footer span12" id="footer">
             <div class="footer-content">
                  <!-- this is default footer -->
@@ -519,19 +539,6 @@
             </div>
         </footer>
     </div>
-
-  </div> <!-- /container -->
-
-  <!-- The javascript =============================================
-       (Placed at the end of the document so the pages load faster) -->
-  <script src="./lesson_files/bootstrap.min.js"></script>
-  <script src="./lesson_files/web2py_bootstrap.js"></script>
-  <!--[if lt IE 7 ]>
-      <script src="/skillbuilder/static/js/dd_belatedpng.js"></script>
-      <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
-      <![endif]-->
-  
-  
-
+  </body>
 
 </html>

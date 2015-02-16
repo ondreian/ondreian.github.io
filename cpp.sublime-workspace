@@ -520,10 +520,18 @@
 	"buffers":
 	[
 		{
-			"file": "README.md",
+			"file": "src/lesson.styl",
 			"settings":
 			{
-				"buffer_size": 2741,
+				"buffer_size": 5192,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/web2py-overrides.styl",
+			"settings":
+			{
+				"buffer_size": 2008,
 				"line_ending": "Windows"
 			}
 		},
@@ -531,16 +539,8 @@
 			"file": "lesson.html",
 			"settings":
 			{
-				"buffer_size": 26489,
+				"buffer_size": 26382,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/lesson.styl",
-			"settings":
-			{
-				"buffer_size": 5006,
-				"line_ending": "Windows"
 			}
 		}
 	],
@@ -593,14 +593,16 @@
 	],
 	"file_history":
 	[
-		"/C/dev/style/cpp-terminal/student-index.html",
+		"/C/dev/style/cpp-terminal/README.md",
+		"/C/dev/style/cpp-terminal/lesson.html",
 		"/C/dev/style/cpp-terminal/src/web2py-overrides.styl",
+		"/C/dev/style/cpp-terminal/src/app.styl",
+		"/C/dev/style/cpp-terminal/student-index.html",
 		"/C/dev/style/cpp-terminal/index.html",
 		"/C/dev/style/cpp-terminal/lesson-image.html",
 		"/C/dev/style/cpp-terminal/lesson-info.html",
 		"/C/dev/style/cpp-terminal/lesson-summary.html",
 		"/C/dev/style/cpp-terminal/lesson-video.html",
-		"/C/dev/style/cpp-terminal/lesson.html",
 		"/C/dev/style/cpp-terminal/lesson-question.html",
 		"/C/dev/style/cpp-terminal/src/lesson.styl",
 		"/C/dev/style/cpp-terminal/password-reset.html",
@@ -608,7 +610,6 @@
 		"/C/dev/style/cpp-terminal/student-add.html",
 		"/C/dev/style/cpp-terminal/manager-index.html",
 		"/C/dev/style/cpp-terminal/student-edit.html",
-		"/C/dev/style/cpp-terminal/src/app.styl",
 		"/C/dev/style/cpp-terminal/account.html",
 		"/C/dev/style/cpp-terminal/src/student.styl",
 		"/C/dev/style/cpp-terminal/login.html",
@@ -719,8 +720,7 @@
 		"/C/dev/fiercerain/config/initializers/load-emails.coffee",
 		"/C/dev/fiercerain/config/initializers/mailer.coffee",
 		"/C/dev/vathor/app/controllers/accounts.coffee",
-		"/C/dev/vathor/app/emails/password_reset.jade",
-		"/C/dev/vathor/app/emails/welcome.jade"
+		"/C/dev/vathor/app/emails/password_reset.jade"
 	],
 	"find":
 	{
@@ -874,6 +874,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			"capitalize",
 			"background light_grey",
 			"dark_grey",
 			"grey",
@@ -1000,8 +1001,7 @@
 			"account",
 			"@account",
 			"archetypes",
-			"\"",
-			""
+			"\""
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1017,93 +1017,95 @@
 			[
 				{
 					"buffer": 0,
-					"file": "README.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2741,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1863,
-								1863
-							]
-						],
-						"settings":
-						{
-							"origPos": 0.0,
-							"syncScroll": false,
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "lesson.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 26489,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								23869,
-								23869
-							]
-						],
-						"settings":
-						{
-							"origPos": 735.0,
-							"syncScroll": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 735.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "src/lesson.styl",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5006,
+						"buffer_size": 5192,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4246,
-								4246
+								3116,
+								3116
 							]
 						],
 						"settings":
 						{
-							"origPos": 276.0,
+							"origPos": 3561.0,
 							"syncScroll": false,
 							"syntax": "Packages/Stylus/Stylus.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3561.0,
+						"translation.y": 2221.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/web2py-overrides.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2008,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1529,
+								1536
+							]
+						],
+						"settings":
+						{
+							"origPos": 0.0,
+							"syncScroll": false,
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1106.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "lesson.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 26382,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								24316,
+								24316
+							]
+						],
+						"settings":
+						{
+							"origPos": 0.0,
+							"syncScroll": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6304.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1172,7 +1174,7 @@
 		[
 			[
 				"",
-				"C:\\dev\\nodejs\\climatus\\climatus.sublime-project"
+				"C:\\dev\\tessel\\climate\\climate.sublime-project"
 			]
 		],
 		"width": 475.0

@@ -67,3 +67,9 @@ img.logo--v1 {
 .footer-content {
   bottom: 0px;
 }
+.green {
+  color: #40d049;
+}
+.red {
+  color: #bd0500;
+}
