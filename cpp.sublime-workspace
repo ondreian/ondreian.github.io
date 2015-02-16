@@ -519,22 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "src/lesson.styl",
-			"settings":
-			{
-				"buffer_size": 4144,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "lesson.html",
-			"settings":
-			{
-				"buffer_size": 26579,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/Stylus/Stylus.sublime-build",
 	"command_palette":
@@ -584,10 +568,13 @@
 	],
 	"file_history":
 	[
+		"/C/dev/style/cpp-terminal/src/lesson.styl",
+		"/C/dev/style/cpp-terminal/lesson.html",
+		"/C/dev/style/cpp-terminal/gulpfile.js",
+		"/C/dev/style/cpp-terminal/.gitignore",
 		"/C/dev/style/cpp-terminal/src/app.styl",
 		"/C/dev/style/cpp-terminal/src/web2py-overrides.styl",
 		"/C/dev/style/cpp-terminal/README.md",
-		"/C/dev/style/cpp-terminal/lesson.html",
 		"/C/dev/style/cpp-terminal/student-index.html",
 		"/C/dev/style/cpp-terminal/index.html",
 		"/C/dev/style/cpp-terminal/lesson-image.html",
@@ -595,7 +582,6 @@
 		"/C/dev/style/cpp-terminal/lesson-summary.html",
 		"/C/dev/style/cpp-terminal/lesson-video.html",
 		"/C/dev/style/cpp-terminal/lesson-question.html",
-		"/C/dev/style/cpp-terminal/src/lesson.styl",
 		"/C/dev/style/cpp-terminal/password-reset.html",
 		"/C/dev/style/cpp-terminal/src/auth.styl",
 		"/C/dev/style/cpp-terminal/student-add.html",
@@ -709,9 +695,7 @@
 		"/C/dev/fiercerain/app/emails/digest.jade",
 		"/C/dev/fiercerain/app/emails/event_reminder.jade",
 		"/C/dev/fiercerain/config/initializers/load-emails.coffee",
-		"/C/dev/fiercerain/config/initializers/mailer.coffee",
-		"/C/dev/vathor/app/controllers/accounts.coffee",
-		"/C/dev/vathor/app/emails/password_reset.jade"
+		"/C/dev/fiercerain/config/initializers/mailer.coffee"
 	],
 	"find":
 	{
@@ -1003,73 +987,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/lesson.styl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4144,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3329,
-								3329
-							]
-						],
-						"settings":
-						{
-							"origPos": 3561.0,
-							"syncScroll": false,
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1585.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "lesson.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 26579,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								25453,
-								25453
-							]
-						],
-						"settings":
-						{
-							"origPos": 0.0,
-							"syncScroll": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 9202.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1133,7 +1052,7 @@
 		[
 			[
 				"",
-				"C:\\dev\\tessel\\climate\\climate.sublime-project"
+				"C:\\dev\\nodejs\\blaze\\blaze.sublime-project"
 			]
 		],
 		"width": 475.0
