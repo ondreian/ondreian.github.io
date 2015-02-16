@@ -1,0 +1,546 @@
+body.web2py-form--v1 h2 {
+  margin: 30px 0px;
+}
+body.web2py-form--v1 label {
+  width: 75px;
+  padding-right: 20px;
+  text-align: right;
+  font-weight: bold;
+  text-transform: lowercase;
+  margin-top: 5px;
+}
+body.web2py-form--v1 input {
+  width: 300px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+body.web2py-form--v1 input:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+body.web2py-form--v1 input[type='submit'] {
+  border: 1px solid #00940a;
+  background: #80e386;
+  padding: 10px 0px;
+  color: #006407;
+  font-weight: bold;
+  text-transform: lowercase;
+  width: 313px;
+}
+body.web2py-form--v1 input[type='submit']:hover {
+  background: #40d049;
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+/*
+  @media (min-width 1200px)
+    [class*="span"]
+      margin-left 0px
+*/
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  border-radius: 0px;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  outline: none;
+  box-shadow: none;
+}
+.footer {
+  border-top: 0px;
+}
+img.logo--v1 {
+  height: 50px;
+}
+.btn {
+  border-radius: 0px;
+  text-transform: capitalize;
+  padding: 5px 20px;
+  font-weight: bold;
+}
+.btn.btn-default {
+  background: #e5e5e5;
+  border: 1px solid #c0c0c0;
+  text-shadow: none;
+  border-radius: 0px;
+}
+.web2py_grid .row_buttons a {
+  padding: 5px 20px;
+}
+.footer-content {
+  bottom: 0px;
+}
+.green {
+  color: #40d049;
+}
+.red {
+  color: #bd0500;
+}
+
+@media (min-width: 1200px) {
+  .auth--v1 .row {
+    margin-left: 0px;
+  }
+  .auth--v1 .footer {
+    height: 20px;
+  }
+  .auth--v1 .footer-content {
+    bottom: 0px;
+  }
+}
+.auth--v1 #copyright--v1 {
+  text-align: center;
+}
+.auth--v1 .logo-container--v1 {
+  padding: 30px 0px 50px 0px;
+}
+.auth--v1 img.logo--v1 {
+  display: block;
+  margin: 0 auto;
+  max-width: 340px;
+}
+.auth--v1 .login-wrapper--v1 {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #e5e5e5;
+  background: #f1f1f1;
+}
+.auth--v1 .login-wrapper--v1 h2 {
+  text-align: center;
+  margin-bottom: 1.25em;
+  text-shadow: none;
+  color: #333;
+}
+.auth--v1 .login-wrapper--v1 button,
+.auth--v1 .login-wrapper--v1 input[type='submit'],
+.auth--v1 .login-wrapper--v1 input[type='text'],
+.auth--v1 .login-wrapper--v1 input[type='password'] {
+  display: block;
+  width: 100%;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  text-shadow: none;
+}
+.auth--v1 .login-wrapper--v1 button {
+  display: inline;
+  padding: 10px;
+}
+.auth--v1 .login-wrapper--v1 button > span {
+  margin-left: 10px;
+}
+.auth--v1 .login-wrapper--v1 button:focus {
+  outline: none;
+  border: none;
+}
+.auth--v1 .login-wrapper--v1 button,
+.auth--v1 .login-wrapper--v1 input[type='submit'] {
+  padding: 10px 0px;
+  color: #f1f1f1;
+}
+.auth--v1 .login-wrapper--v1 table {
+  min-width: 400px;
+}
+.auth--v1 .login-wrapper--v1 label {
+  text-transform: lowercase;
+  font-weight: bold;
+  font-size: 0.95em;
+}
+.auth--v1 .login-wrapper--v1 .login--v1 {
+  margin: 1em 0;
+  background: #099a94;
+  border: 1px solid #08827d;
+}
+.auth--v1 .login-wrapper--v1 .forgot-pass--v1 {
+  color: #495bb9;
+  border: none;
+  background: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  text-align: left;
+  text-transform: lowercase;
+}
+
+body.lesson--v1 .flash--v1 {
+  padding: 10px;
+  border: 1px solid #bd0500;
+  background: #ff5b57;
+  color: #f1f1f1;
+  margin-bottom: 20px;
+}
+body.lesson--v1 .states-container--v1 {
+  margin-top: 30px;
+  padding-bottom: 10px;
+  background: #f7f7f7;
+  border: 1px solid #e5e5e5;
+  overflow: hidden;
+}
+body.lesson--v1 .states-container--v1 .span2 {
+  padding: 0px 13px;
+  margin-left: 0px;
+  height: 100%;
+  padding-bottom: 300px;
+  margin-bottom: -300px;
+  color: #666;
+}
+body.lesson--v1 .states-container--v1 .span2 h4 {
+  text-align: center;
+  color: #3e3e3e;
+  font-size: 14px;
+  margin: 5px 0px;
+}
+body.lesson--v1 .states-container--v1 .span2:not(:last-child) {
+  border-right: 1px solid #e5e5e5;
+}
+body.lesson--v1 .states-container--v1 .span2 .fillrate {
+  margin-right: 15px;
+}
+body.lesson--v1 .states-container--v1 .span4 {
+  width: 410px;
+  margin-left: 0px;
+  background-color: #f1f1f1;
+  background-image: -webkit-linear-gradient(#f1f1f1, #e5e5e5);
+  background-image: -moz-linear-gradient(#f1f1f1, #e5e5e5);
+  background-image: -o-linear-gradient(#f1f1f1, #e5e5e5);
+  background-image: -ms-linear-gradient(#f1f1f1, #e5e5e5);
+  background-image: linear-gradient(#f1f1f1, #e5e5e5);
+  height: 100%;
+  padding-bottom: 300px;
+  margin-bottom: -300px;
+}
+body.lesson--v1 .states-container--v1 .span4 input[readonly] {
+  border: 1px solid #e5e5e5;
+  -webkit-box-shadow: 0px 0px 0px;
+  box-shadow: 0px 0px 0px;
+}
+body.lesson--v1 .variable-wrapper--v1 {
+  padding: 1px 5px 2px 5px;
+  font-size: 12px;
+  text-transform: lowercase;
+}
+body.lesson--v1 .variable-wrapper--v1 input {
+  display: block;
+  width: 148px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  padding: 5px;
+  margin-top: 5px;
+  border-color: #7ec135;
+}
+body.lesson--v1 .variable-wrapper--v1 input:disabled,
+body.lesson--v1 .variable-wrapper--v1 input[readonly] {
+  border: 1px solid #c0c0c0;
+}
+body.lesson--v1 .variable-wrapper--v1 input:disabled:focus,
+body.lesson--v1 .variable-wrapper--v1 input[readonly]:focus {
+  outline: none;
+  border: 1px solid #c0c0c0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+body.lesson--v1 .errors-column--v1 {
+  padding-left: 30px;
+}
+body.lesson--v1 .errors-column--v1 span.icon,
+body.lesson--v1 .errors-column--v1 span.error-name {
+  display: block;
+  float: left;
+}
+body.lesson--v1 .errors-column--v1 span.error-name {
+  width: 150px;
+  font-weight: bold;
+  text-transform: lowercase;
+}
+body.lesson--v1 .errors-column--v1 span.icon {
+  width: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+body.lesson--v1 form > .row > .span8 {
+  margin-left: 0px;
+}
+body.lesson--v1 form > .row > .span8 h6 {
+  font-weight: 16px;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+}
+body.lesson--v1 form > .row > .span8 h6.incorrect {
+  color: #bd0500;
+}
+body.lesson--v1 form > .row > .span8 h6.summary {
+  color: #7ec135;
+}
+body.lesson--v1 form > .row > .span8 h6.information {
+  color: #40699d;
+}
+body.lesson--v1 form > .row > .span8 h6.question {
+  color: #099a94;
+}
+body.lesson--v1 form > .row > .span8 h6.control-change {
+  color: #32177e;
+}
+body.lesson--v1 form > .row > .span8 h6 span:first-child {
+  margin-right: 20px;
+}
+body.lesson--v1 form > .row > .span8 ol {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0px;
+}
+body.lesson--v1 form > .row > .span8 ol li {
+  margin: 10px 0px;
+  padding: 0px;
+}
+body.lesson--v1 form > .row > .span8 ol input {
+  text-transform: lowercase;
+  font-weight: normal;
+  background: #7ec135;
+  border: 2px;
+  border-color: #7ec135;
+  font-weight: bold;
+  text-transform: lowercase;
+  text-shadow: none;
+  color: #fff;
+}
+body.lesson--v1 form > .row > .span8 img {
+  display: block;
+  border: 1px solid #e5e5e5;
+  max-height: 300px;
+  margin-bottom: 15px;
+  background: #fff;
+}
+body.lesson--v1 form > .row > .span8 audio {
+  display: block;
+  margin: 10px 0px;
+  width: 100%;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+body.lesson--v1 form > .row > .span8 video {
+  width: 540px;
+}
+body.lesson--v1 form > .row > .span8 p input {
+  display: block;
+  margin: 10px;
+  width: 100px;
+  background: #7ec135;
+  border: 2px;
+  border-color: #7ec135;
+  font-weight: bold;
+  text-transform: lowercase;
+  padding: 10px 20px;
+  text-shadow: none;
+  color: #fff;
+}
+body.lesson--v1 form > .row > .span8 .actions {
+  padding: 10px 0px;
+}
+body.lesson--v1 form > .row > .span8 .btn {
+  font-weight: normal;
+  background: #7ec135;
+  border: 2px;
+  border-color: #7ec135;
+  padding: 10px 20px;
+  text-shadow: none;
+  color: #fff;
+  margin-right: 0px;
+}
+body.lesson--v1 form > .row > .span8 .btn:not(:last-child) {
+  margin-right: 5px;
+}
+body.lesson--v1 form > .row > .span8 .btn:focus {
+  outline: none;
+}
+body.lesson--v1 form > .row > .span8 .btn[disabled] {
+  background: #e5e5e5;
+  border: 1px solid #c0c0c0;
+  color: #555;
+}
+body.lesson--v1 form > .row > .span4 {
+  padding: 10px 0px;
+}
+body.lesson--v1 form > .row > .span4 > h3 {
+  font-size: 18px;
+}
+body.lesson--v1 form > .row > .span4 > p {
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+  margin: 0px 0px 20px 0px;
+  background: #f7f7f7;
+}
+body.lesson--v1 form > .row > .span4 .current-part--v1 {
+  border: 1px solid #e5e5e5;
+}
+body.lesson--v1 form > .row > .span4 .current-part--v1 > h4 {
+  margin: 0px 0px 15px 0px;
+  padding: 10px;
+  border-bottom: 1px solid #e5e5e5;
+  background: #f7f7f7;
+}
+body.lesson--v1 form > .row > .span4 .current-part--v1 > img {
+  padding: 5px 0px 20px 0px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+body.web2py-overrides--v1 form {
+  padding: 20px;
+  border: 1px solid #e5e5e5;
+  background: #f5f5f5;
+  margin: 20px 0px 10px 0px;
+}
+body.web2py-overrides--v1 h2 {
+  margin: 30px 0px;
+}
+body.web2py-overrides--v1 label {
+  min-width: 100px;
+  padding-right: 20px;
+  text-align: right;
+  font-weight: bold;
+  text-transform: lowercase;
+  margin-top: 5px;
+}
+body.web2py-overrides--v1 input {
+  min-width: 200px;
+  margin: 20px 0px 10px 0px;
+}
+body.web2py-overrides--v1 input[type='submit'] {
+  background: #7ec135;
+  border: 2px;
+  border-color: #7ec135;
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  text-transform: lowercase;
+  width: 212px;
+  padding: 10px 20px;
+  text-shadow: none;
+  color: #fff;
+}
+body.web2py-overrides--v1 input[type='submit']:focus {
+  outline: none;
+}
+body.web2py-overrides--v1 a {
+  border: 2px;
+  font-weight: bold;
+  text-transform: lowercase;
+  width: 212px;
+  padding: 10px 20px;
+  text-shadow: none;
+  color: #fff;
+}
+body.web2py-overrides--v1 a:first-child {
+  background: #7ec135;
+  border-color: #7ec135;
+}
+body.web2py-overrides--v1 a:nth-child(2) {
+  background: #099a94;
+  border-color: #08827d;
+}
+body.web2py-overrides--v1 a:nth-child(3) {
+  background: #32177e;
+  border-color: #4823b0;
+}
+.web2py_grid tr:hover {
+  background: none;
+}
+body.web2py-index-page--v1 h2 {
+  margin-top: 30px;
+}
+body.web2py-index-page--v1 .actions {
+  margin: 20px 0px 10px 0px;
+}
+body.web2py-index-page--v1 .actions a {
+  border: 2px;
+  font-weight: bold;
+  text-transform: lowercase;
+  width: 212px;
+  padding: 10px 20px;
+  text-shadow: none;
+  color: #fff;
+}
+body.web2py-index-page--v1 .actions a:first-child {
+  background: #7ec135;
+  border-color: #7ec135;
+}
+body.web2py-index-page--v1 .actions a:nth-child(2) {
+  background: #099a94;
+  border-color: #08827d;
+}
+body.web2py-index-page--v1 .actions a:nth-child(3) {
+  background: #32177e;
+  border-color: #4823b0;
+}
+body.web2py-index-page--v1 table {
+  border: 1px solid #e5e5e5;
+}
+body.web2py-index-page--v1 thead {
+  border-bottom: 1px solid #e5e5e5;
+  background: #f5f5f5;
+}
+body.web2py-index-page--v1 thead th {
+  background: none;
+  text-shadow: none;
+  border-right: none;
+}
+body.web2py-index-page--v1 thead th a {
+  color: #333;
+}
+body.web2py-index-page--v1 thead th:last-child {
+  background: none;
+}
+body.web2py-index-page--v1 tr.w2p_odd {
+  background: #f5f5f5;
+}
+body.web2py-index-page--v1 a.btn {
+  background: #e5e5e5;
+  border: 1px solid #c0c0c0;
+  text-shadow: none;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+
+/* Palette URL: http://paletton.com/#uid=7142d0ku6vKdUKxm4-2yfnGHZfV */
+/* VARS */
+/* As hex codes */
+/* Main Primary color */
+/* Main Secondary color (1) */
+/* Main Secondary color (2) */
+/* Main Complement color */
+/* As RGBa codes */
+/* Main Primary color */
+/* Main Secondary color (1) */
+/* Main Secondary color (2) */
+/* Main Complement color */

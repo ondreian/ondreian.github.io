@@ -523,15 +523,7 @@
 			"file": "src/lesson.styl",
 			"settings":
 			{
-				"buffer_size": 5192,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/web2py-overrides.styl",
-			"settings":
-			{
-				"buffer_size": 2008,
+				"buffer_size": 4144,
 				"line_ending": "Windows"
 			}
 		},
@@ -539,7 +531,7 @@
 			"file": "lesson.html",
 			"settings":
 			{
-				"buffer_size": 26382,
+				"buffer_size": 26579,
 				"line_ending": "Unix"
 			}
 		}
@@ -588,15 +580,14 @@
 	},
 	"expanded_folders":
 	[
-		"/C/dev/style/cpp-terminal",
-		"/C/dev/style/cpp-terminal/src"
+		"/C/dev/style/cpp-terminal"
 	],
 	"file_history":
 	[
+		"/C/dev/style/cpp-terminal/src/app.styl",
+		"/C/dev/style/cpp-terminal/src/web2py-overrides.styl",
 		"/C/dev/style/cpp-terminal/README.md",
 		"/C/dev/style/cpp-terminal/lesson.html",
-		"/C/dev/style/cpp-terminal/src/web2py-overrides.styl",
-		"/C/dev/style/cpp-terminal/src/app.styl",
 		"/C/dev/style/cpp-terminal/student-index.html",
 		"/C/dev/style/cpp-terminal/index.html",
 		"/C/dev/style/cpp-terminal/lesson-image.html",
@@ -739,6 +730,10 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"<hr>",
+			"<br>",
+			"img src=",
+			"src=",
 			"lowercase",
 			"dark_grey",
 			"background grey",
@@ -862,11 +857,7 @@
 			"new compound.mandyGet('mongoose').Schema",
 			"client",
 			"TCP",
-			"port=",
-			"port",
-			">\\t <k",
-			"<k ",
-			"/keys>"
+			"port="
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -874,6 +865,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			"",
 			"capitalize",
 			"background light_grey",
 			"dark_grey",
@@ -1000,8 +992,7 @@
 			"@publishEvent",
 			"account",
 			"@account",
-			"archetypes",
-			"\""
+			"archetypes"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1012,7 +1003,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1021,15 +1012,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5192,
+						"buffer_size": 4144,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3116,
-								3116
+								3329,
+								3329
 							]
 						],
 						"settings":
@@ -1041,7 +1032,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2221.0,
+						"translation.y": 1585.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1049,51 +1040,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "src/web2py-overrides.styl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2008,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1529,
-								1536
-							]
-						],
-						"settings":
-						{
-							"origPos": 0.0,
-							"syncScroll": false,
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1106.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "lesson.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 26382,
+						"buffer_size": 26579,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								24316,
-								24316
+								25453,
+								25453
 							]
 						],
 						"settings":
@@ -1105,7 +1064,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 6304.0,
+						"translation.y": 9202.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
