@@ -74,10 +74,21 @@ img.logo--v1 {
   background: #40d049;
   color: #f1f1f1;
 }
+.btn.green:hover {
+  background: #54d55d;
+  border-color: #31c63a;
+  color: #f1f1f1;
+}
 .red {
   color: #bd0500;
 }
 .btn.red {
-  background: #bd0500;
+  background: #ff110b;
+  border-color: #bd0500;
+  color: #f1f1f1;
+}
+.btn.red:hover {
+  background: #d70600;
+  border-color: #a40400;
   color: #f1f1f1;
 }

@@ -72,10 +72,20 @@ img.logo--v1
 .btn.green
   background ok_green
   color #f1f1f1
+  &:hover
+    background lighten(ok_green, 5)
+    border-color darken(ok_green, 5)
+    color #f1f1f1
 
 .red
   color error_red
 
 .btn.red
-  background error_red
+  background lighten(error_red, 15)
+  border-color error_red
   color #f1f1f1
+
+  &:hover
+    background lighten(error_red, 5)
+    border-color darken(error_red, 5)
+    color #f1f1f1
