@@ -105,13 +105,15 @@ img.logo--v1 {
   color: #40d049;
 }
 .btn.green {
-  color: #40d049;
+  background: #40d049;
+  color: #f1f1f1;
 }
 .red {
   color: #bd0500;
 }
 .btn.red {
-  color: #bd0500;
+  background: #bd0500;
+  color: #f1f1f1;
 }
 
 @media (min-width: 1200px) {
