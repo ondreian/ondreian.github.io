@@ -68,15 +68,15 @@ img.logo--v1 {
   bottom: 0px;
 }
 .green {
-  color: #40d049;
+  color: #7ec135;
 }
 .btn.green {
-  background: #40d049;
+  background: #7ec135;
   color: #f1f1f1;
 }
 .btn.green:hover {
-  background: #54d55d;
-  border-color: #31c63a;
+  background: #8bcc44;
+  border-color: #71ad30;
   color: #f1f1f1;
 }
 .red {

@@ -1,5 +1,10 @@
 @import 'nib'
 
+embolden(c)
+  color c
+  //background lighten(c, 50)
+  //border-color c
+
 error_red      = #BD0500
 warning_yellow = #FFCC4F
 ok_green       = #40D049
@@ -66,7 +71,7 @@ body.lesson--v1
 
   .variable-wrapper--v1
     padding 1px 5px 2px 5px
-    font-size 12px
+    font-size 14px
     text-transform capitalize
 
     input
@@ -94,11 +99,12 @@ body.lesson--v1
     span.error-name
       display block
       float left
+      padding 5px 0px
 
     span.error-name
       width 150px
       font-weight bold
-      text-transform lowercase
+      font-size 16px
 
     span.icon
       width 10px
@@ -114,27 +120,26 @@ body.lesson--v1
   form > .row > .span8
     margin-left 0px
 
-    
-
     h6
-      font-size 20px
+      font-size 30px
       padding 10px 10px
       margin-bottom 10px
+      //border 1px solid transparent
   
       &.incorrect
-        color #bd0500
+        embolden(#bd0500)
 
       &.summary
-        color #7ec135
+        embolden(#7ec135)
 
       &.information
-        color #40699D
+        embolden(#40699D)
 
       &.question
-        color #099A94
+        embolden(#099A94)
 
       &.control-change
-        color #32177e
+        embolden(#32177e)
 
 
       span:first-child

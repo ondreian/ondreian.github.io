@@ -102,15 +102,15 @@ img.logo--v1 {
   bottom: 0px;
 }
 .green {
-  color: #40d049;
+  color: #7ec135;
 }
 .btn.green {
-  background: #40d049;
+  background: #7ec135;
   color: #f1f1f1;
 }
 .btn.green:hover {
-  background: #54d55d;
-  border-color: #31c63a;
+  background: #8bcc44;
+  border-color: #71ad30;
   color: #f1f1f1;
 }
 .red {
@@ -265,7 +265,7 @@ body.lesson--v1 .states-container--v1 .span4 input[readonly] {
 }
 body.lesson--v1 .variable-wrapper--v1 {
   padding: 1px 5px 2px 5px;
-  font-size: 12px;
+  font-size: 14px;
   text-transform: capitalize;
 }
 body.lesson--v1 .variable-wrapper--v1 input {
@@ -295,11 +295,12 @@ body.lesson--v1 .errors-column--v1 span.icon,
 body.lesson--v1 .errors-column--v1 span.error-name {
   display: block;
   float: left;
+  padding: 5px 0px;
 }
 body.lesson--v1 .errors-column--v1 span.error-name {
   width: 150px;
   font-weight: bold;
-  text-transform: lowercase;
+  font-size: 16px;
 }
 body.lesson--v1 .errors-column--v1 span.icon {
   width: 10px;
@@ -316,7 +317,7 @@ body.lesson--v1 form > .row > .span8 {
   margin-left: 0px;
 }
 body.lesson--v1 form > .row > .span8 h6 {
-  font-size: 20px;
+  font-size: 30px;
   padding: 10px 10px;
   margin-bottom: 10px;
 }

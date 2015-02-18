@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"lig",
+				"light_grey"
+			],
+			[
 				"erro",
 				"errors-column--v1"
 			],
@@ -510,39 +514,11 @@
 			[
 				"de",
 				"description_is_long"
-			],
-			[
-				"dev",
-				"dev-routes"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "src/lesson.styl",
-			"settings":
-			{
-				"buffer_size": 4167,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/web2py-overrides.styl",
-			"settings":
-			{
-				"buffer_size": 1952,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/app.styl",
-			"settings":
-			{
-				"buffer_size": 1470,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "Packages/Stylus/Stylus.sublime-build",
 	"command_palette":
@@ -593,12 +569,12 @@
 	],
 	"file_history":
 	[
+		"/C/dev/style/cpp-terminal/src/app.styl",
+		"/C/dev/style/cpp-terminal/src/web2py-overrides.styl",
 		"/C/dev/style/cpp-terminal/src/lesson.styl",
 		"/C/dev/style/cpp-terminal/lesson.html",
 		"/C/dev/style/cpp-terminal/gulpfile.js",
 		"/C/dev/style/cpp-terminal/.gitignore",
-		"/C/dev/style/cpp-terminal/src/app.styl",
-		"/C/dev/style/cpp-terminal/src/web2py-overrides.styl",
 		"/C/dev/style/cpp-terminal/README.md",
 		"/C/dev/style/cpp-terminal/student-index.html",
 		"/C/dev/style/cpp-terminal/index.html",
@@ -1012,105 +988,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/lesson.styl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4167,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1804,
-								1804
-							]
-						],
-						"settings":
-						{
-							"origPos": 0.0,
-							"syncScroll": false,
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1826.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/web2py-overrides.styl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1952,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1905,
-								1905
-							]
-						],
-						"settings":
-						{
-							"origPos": 0.0,
-							"syncScroll": false,
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 342.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/app.styl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1470,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1232,
-								1232
-							]
-						],
-						"settings":
-						{
-							"origPos": 0.0,
-							"syncScroll": false,
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 789.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
