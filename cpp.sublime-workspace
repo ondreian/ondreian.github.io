@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"font",
+				"font-size"
+			],
+			[
 				"lig",
 				"light_grey"
 			],
@@ -510,15 +514,35 @@
 			[
 				"Fav",
 				"Favorites_Menu"
-			],
-			[
-				"de",
-				"description_is_long"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "src/app.styl",
+			"settings":
+			{
+				"buffer_size": 1476,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/lesson.styl",
+			"settings":
+			{
+				"buffer_size": 4465,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/web2py-overrides.styl",
+			"settings":
+			{
+				"buffer_size": 1952,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "Packages/Stylus/Stylus.sublime-build",
 	"command_palette":
@@ -715,6 +739,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			".information",
 			"<hr>",
 			"<br>",
 			"img src=",
@@ -841,8 +866,7 @@
 			"mongoose = compound.mandyGet('mongoose')",
 			"new compound.mandyGet('mongoose').Schema",
 			"client",
-			"TCP",
-			"port="
+			"TCP"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -988,8 +1012,105 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/app.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1476,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								416,
+								416
+							]
+						],
+						"settings":
+						{
+							"origPos": 0.0,
+							"syncScroll": false,
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 557.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/lesson.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4465,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2154,
+								2154
+							]
+						],
+						"settings":
+						{
+							"origPos": 0.0,
+							"syncScroll": false,
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1029.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/web2py-overrides.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1952,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								843,
+								886
+							]
+						],
+						"settings":
+						{
+							"origPos": 0.0,
+							"syncScroll": false,
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 606.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1053,7 +1174,7 @@
 		[
 			[
 				"",
-				"C:\\dev\\nodejs\\blaze\\blaze.sublime-project"
+				"C:\\dev\\tessel\\climate\\climate.sublime-project"
 			]
 		],
 		"width": 475.0

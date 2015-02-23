@@ -302,7 +302,7 @@ body.lesson--v1 .errors-column--v1 span.error-name {
   font-weight: bold;
   font-size: 16px;
 }
-body.lesson--v1 .errors-column--v1 span.icon {
+body.lesson--v1 .errors-column--v1 span.ion-lightbulb {
   width: 10px;
   font-size: 20px;
   text-align: center;
@@ -310,16 +310,15 @@ body.lesson--v1 .errors-column--v1 span.icon {
 body.lesson--v1 .wiki-content {
   padding: 5px 10px;
   border: 1px solid #e5e5e5;
-  background: #f7f7f7;
   margin-bottom: 5px;
 }
 body.lesson--v1 form > .row > .span8 {
   margin-left: 0px;
 }
 body.lesson--v1 form > .row > .span8 h6 {
-  font-size: 30px;
   padding: 10px 10px;
   margin-bottom: 10px;
+  font-size: 18px;
 }
 body.lesson--v1 form > .row > .span8 h6.incorrect {
   color: #bd0500;
@@ -338,6 +337,7 @@ body.lesson--v1 form > .row > .span8 h6.control-change {
 }
 body.lesson--v1 form > .row > .span8 h6 span:first-child {
   margin-right: 20px;
+  font-size: 30px;
 }
 body.lesson--v1 form > .row > .span8 ol {
   list-style-type: none;
