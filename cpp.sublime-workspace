@@ -520,34 +520,35 @@
 	"buffers":
 	[
 		{
-			"file": "src/app.styl",
+			"contents": "var gulp   = require('gulp');\nvar stylus = require('gulp-stylus');\nvar concat = require('gulp-concat');\n\ngulp.task('css', function () {\n\n    //var filter = Filter('./src/*.styl');\n\n    return gulp.src([\n            './lib/**.css'\n        ])\n        .pipe(concat('app.css'))\n        .pipe(gulp.dest('./min'));\n});",
+			"file": "gulpfile.js",
+			"file_size": 363,
+			"file_write_time": 130685784680549325,
 			"settings":
 			{
-				"buffer_size": 1476,
+				"buffer_size": 312,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/lesson.styl",
+			"contents": "PATH=C:\\pik\\;C:\\Program Files\\ImageMagick-6.8.0-Q16;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Git\\cmd;C:\\Program Files\\command-line-scripts;C:\\Users\\Benjamin\\.pik\\rubies\\Ruby-200-p195\\bin\\;C:\\Python27\\;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\HashiCorp\\Vagrant\\bin;C:\\Program Files (x86)\\Git\\bin;C:\\mpg123;C:\\mongodb\\bin;C:\\Program Files\\R\\R-3.1.1\\bin;C:\\Go\\bin;C:\\Program Files\\Mercurial\\;C:\\dev\\go-workspace\\bin;C:\\Program Files (x86)\\eSpeak\\command_line;C:\\Program Files (x86)\\Spiceworks\\Nmap;C:\\Chocolatey\\bin;C:\\HashiCorp\\Vagrant\\bin\\vagrant.exe;C:\\PROGRA~2\\Oracle\\VirtualBox;;C:\\Users\\Benjamin\\AppData\\Local\\.meteor;C:\\Program Files\\Mercurial;\n\nC:\\Users\\Benjamin\\AppData\\Roaming\\npm;",
 			"settings":
 			{
-				"buffer_size": 4465,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/web2py-overrides.styl",
-			"settings":
-			{
-				"buffer_size": 1952,
-				"line_ending": "Windows"
+				"buffer_size": 1588,
+				"line_ending": "Windows",
+				"name": "PATH=C:\\pik\\;C:\\Program Files\\ImageMagick-6.8.0-Q1"
 			}
 		}
 	],
 	"build_system": "Packages/Stylus/Stylus.sublime-build",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 73.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -588,13 +589,12 @@
 	},
 	"expanded_folders":
 	[
-		"/C/dev/style/cpp-terminal",
-		"/C/dev/style/cpp-terminal/src"
+		"/C/dev/style/cpp-terminal"
 	],
 	"file_history":
 	[
-		"/C/dev/style/cpp-terminal/src/app.styl",
 		"/C/dev/style/cpp-terminal/src/web2py-overrides.styl",
+		"/C/dev/style/cpp-terminal/src/app.styl",
 		"/C/dev/style/cpp-terminal/src/lesson.styl",
 		"/C/dev/style/cpp-terminal/lesson.html",
 		"/C/dev/style/cpp-terminal/gulpfile.js",
@@ -1012,103 +1012,67 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/app.styl",
+					"file": "gulpfile.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1476,
+						"buffer_size": 312,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								416,
-								416
+								312,
+								312
 							]
 						],
 						"settings":
 						{
 							"origPos": 0.0,
 							"syncScroll": false,
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 557.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/lesson.styl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4465,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2154,
-								2154
-							]
-						],
-						"settings":
-						{
-							"origPos": 0.0,
-							"syncScroll": false,
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1029.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "src/web2py-overrides.styl",
+					"buffer": 1,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1952,
+						"buffer_size": 1588,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								843,
-								886
+								1588,
+								1588
 							]
 						],
 						"settings":
 						{
+							"auto_name": "PATH=C:\\pik\\;C:\\Program Files\\ImageMagick-6.8.0-Q1",
 							"origPos": 0.0,
 							"syncScroll": false,
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
-						"translation.x": -0.0,
-						"translation.y": 606.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1153,6 +1117,7 @@
 	{
 		"height": 0.0
 	},
+	"pinned_build_system": "",
 	"project": "cpp.sublime-project",
 	"replace":
 	{
@@ -1162,6 +1127,7 @@
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -1170,11 +1136,12 @@
 	"select_project":
 	{
 		"height": 625.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
 				"",
-				"C:\\dev\\tessel\\climate\\climate.sublime-project"
+				"C:\\dev\\style\\skillbuilder\\skillbuilder.sublime-project"
 			]
 		],
 		"width": 475.0
@@ -1182,6 +1149,7 @@
 	"select_symbol":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
